@@ -139,10 +139,12 @@ namespace Framework
         }
         #endregion
 
+        #region 基础组件管理
+
         /// <summary>
         /// 基础组件列表
         /// </summary>
-        private static LinkedList<Component> m_BaseComponentList = new LinkedList<Component>();
+        private static readonly LinkedList<Component> m_BaseComponentList = new LinkedList<Component>();
 
         #region 注册组件 RegisterBaseComponent
         /// <summary>
@@ -162,7 +164,7 @@ namespace Framework
                 }
                 curr=curr.Next;
             }
-            Debug.Log(type.Name+"注册到列表");
+            //Debug.Log(type.Name+"注册到列表");
             m_BaseComponentList.AddLast(component);
         }
         #endregion
@@ -183,7 +185,7 @@ namespace Framework
             {
                 if (curr.Value.GetType() == type)
                 {
-                    Debug.Log(type.Name + "获取到列表");
+                  //  Debug.Log(type.Name + "获取到列表");
                     return curr.Value;
                 }
                 curr = curr.Next;
@@ -193,6 +195,10 @@ namespace Framework
         }
         #endregion
 
+        #region 初始化基础组件 InitBaseComponents
+        /// <summary>
+        /// 初始化基础组件
+        /// </summary>
         private static void InitBaseComponents()
         {
             Event = GetBaseComponent<EventComponent>();
@@ -212,6 +218,38 @@ namespace Framework
             Time = GetBaseComponent<TimeComponent>();
             UI = GetBaseComponent<UIComponent>();
         }
+        #endregion
+
+        #endregion
+
+        #region 更新组件管理
+        /// <summary>
+        /// 更新组件列表
+        /// </summary>
+        private static readonly LinkedList<IUpdateComponent> m_UpdateComponentList = new LinkedList<IUpdateComponent>();
+
+        #region 更新组件 RegisterUpdateComponent
+        /// <summary>
+        /// 注册更新组件
+        /// </summary>
+        /// <param name="component"></param>
+        public static void RegisterUpdateComponent(IUpdateComponent component)
+        {
+            m_UpdateComponentList.AddLast(component);
+        }
+        #endregion
+        #region 移除更新组件 RemoveUpdateComponent
+        /// <summary>
+        /// 移除更新组件
+        /// </summary>
+        /// <param name="component"></param>
+        public static void RemoveUpdateComponent(IUpdateComponent component)
+        {
+            m_UpdateComponentList.Remove(component);
+        }
+        #endregion
+
+        #endregion
 
         void Start()
         {
@@ -220,7 +258,14 @@ namespace Framework
 
         void Update()
         {
-
+            for (LinkedListNode<IUpdateComponent>curr = m_UpdateComponentList.First; curr!=null; curr=curr.Next)
+            {
+                curr.Value.OnUpdate();
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                RemoveUpdateComponent(Time);
+            }
         }
     }
 }

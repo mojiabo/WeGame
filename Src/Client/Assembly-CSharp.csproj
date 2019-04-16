@@ -69,6 +69,7 @@
     <Compile Include="Assets\Script\Framework\Components\FSMComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\GameObjComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\HttpComponent.cs" />
+    <Compile Include="Assets\Script\Framework\Components\IUpdateComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\LocalizationComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\PoolComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\ProcedureComponent.cs" />
