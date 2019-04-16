@@ -84,7 +84,10 @@
     <Compile Include="Assets\Script\Framework\Managers\Data\DataManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\DataTable\DataTableManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Download\DownloadManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Event\CommonEvent.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Event\CommonEventId.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Event\EventManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Event\SocketEvent.cs" />
     <Compile Include="Assets\Script\Framework\Managers\FSM\FSMManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\GameObj\GameObjManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Http\HttpManager.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Assets\Script\Framework\Managers\Socket\SocketManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Time\TimeManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIManager.cs" />
+    <Compile Include="Assets\Script\Framework\Test\TestEvent.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/WeGame/WeGame/Src/Client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
