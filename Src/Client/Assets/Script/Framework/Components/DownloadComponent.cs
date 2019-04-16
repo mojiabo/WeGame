@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class DownloadComponent : Component
+    public class DownloadComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

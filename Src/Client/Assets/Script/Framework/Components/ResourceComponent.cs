@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class ResourceComponent : Component, IUpdateComponent
+    public class ResourceComponent : BaseComponent, IUpdateComponent
     {
         protected override void OnAwake()
         {
@@ -13,6 +13,10 @@ namespace Framework
         public void OnUpdate()
         {
            
+        }
+        public override void Shutdown()
+        {
+
         }
     }
 }

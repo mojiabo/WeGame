@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class TimeComponent : Component,IUpdateComponent
+    public class TimeComponent : BaseComponent,IUpdateComponent
     {
 
         protected override void OnAwake()
@@ -14,6 +14,10 @@ namespace Framework
         public void OnUpdate()
         {
          //  Debug.Log(this.name+"OnUpdate");
+        }
+        public override void Shutdown()
+        {
+           // Debug.Log(this.name+"关闭组件");
         }
     }
 }

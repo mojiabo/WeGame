@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class ProcedureComponent : Component
+    public class ProcedureComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

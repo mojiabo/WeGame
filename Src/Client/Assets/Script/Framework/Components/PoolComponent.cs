@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class PoolComponent : Component
+    public class PoolComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class SceneComponent : Component
+    public class SceneComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

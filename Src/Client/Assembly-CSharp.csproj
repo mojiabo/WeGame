@@ -61,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Framework\Components\Component.cs" />
     <Compile Include="Assets\Script\Framework\Components\DataComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\DataTableComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\DownloadComponent.cs" />
@@ -69,7 +68,6 @@
     <Compile Include="Assets\Script\Framework\Components\FSMComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\GameObjComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\HttpComponent.cs" />
-    <Compile Include="Assets\Script\Framework\Components\IUpdateComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\LocalizationComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\PoolComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\ProcedureComponent.cs" />
@@ -79,6 +77,9 @@
     <Compile Include="Assets\Script\Framework\Components\SocketComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\TimeComponent.cs" />
     <Compile Include="Assets\Script\Framework\Components\UIComponent.cs" />
+    <Compile Include="Assets\Script\Framework\Core\BaseComponent.cs" />
+    <Compile Include="Assets\Script\Framework\Core\Component.cs" />
+    <Compile Include="Assets\Script\Framework\Core\IUpdateComponent.cs" />
     <Compile Include="Assets\Script\Framework\GameEntry.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Data\DataManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\DataTable\DataTableManager.cs" />

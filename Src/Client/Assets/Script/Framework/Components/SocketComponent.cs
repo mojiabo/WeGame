@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class SocketComponent : Component
+    public class SocketComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

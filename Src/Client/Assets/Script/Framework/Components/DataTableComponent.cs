@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class DataTableComponent : Component
+    public class DataTableComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

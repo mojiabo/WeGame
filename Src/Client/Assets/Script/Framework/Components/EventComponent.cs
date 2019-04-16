@@ -6,9 +6,12 @@ namespace Framework
     /// <summary>
     /// 事件组件
     /// </summary>
-    public class EventComponent : Component
+    public class EventComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

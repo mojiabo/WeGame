@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class HttpComponent : Component
+    public class HttpComponent : BaseComponent
     {
 
+        public override void Shutdown()
+        {
 
+        }
     }
 }

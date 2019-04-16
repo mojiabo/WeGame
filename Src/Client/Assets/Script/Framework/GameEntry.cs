@@ -144,18 +144,18 @@ namespace Framework
         /// <summary>
         /// 基础组件列表
         /// </summary>
-        private static readonly LinkedList<Component> m_BaseComponentList = new LinkedList<Component>();
+        private static readonly LinkedList<BaseComponent> m_BaseComponentList = new LinkedList<BaseComponent>();
 
         #region 注册组件 RegisterBaseComponent
         /// <summary>
         /// 注册组件
         /// </summary>
         /// <param name="component"></param>
-        internal static void RegisterBaseComponent(Component component)
+        internal static void RegisterBaseComponent(BaseComponent component)
         {
             Type type = component.GetType();
 
-            LinkedListNode<Component> curr = m_BaseComponentList.First;
+            LinkedListNode<BaseComponent> curr = m_BaseComponentList.First;
             while (curr!=null)
             {
                 if (curr.Value.GetType()== type)
@@ -170,7 +170,7 @@ namespace Framework
         #endregion
 
         #region 获取组件 GetBaseComponent
-        internal static T GetBaseComponent<T>()where T : Component
+        internal static T GetBaseComponent<T>()where T : BaseComponent
         {
             return (T)GetBaseComponent(typeof(T));
         }
@@ -178,9 +178,9 @@ namespace Framework
         /// 获取组件
         /// </summary>
         /// <param name="component"></param>
-        internal static Component GetBaseComponent(Type type)
+        internal static BaseComponent GetBaseComponent(Type type)
         {
-            LinkedListNode<Component> curr = m_BaseComponentList.First;
+            LinkedListNode<BaseComponent> curr = m_BaseComponentList.First;
             while (curr != null)
             {
                 if (curr.Value.GetType() == type)
@@ -262,11 +262,16 @@ namespace Framework
             {
                 curr.Value.OnUpdate();
             }
-            if (Input.GetKeyDown(KeyCode.A))
+        }
+
+        private void OnDestroy()
+        {
+            for (LinkedListNode<BaseComponent> curr = m_BaseComponentList.First; curr != null; curr = curr.Next)
             {
-                RemoveUpdateComponent(Time);
+                curr.Value.Shutdown();
             }
         }
+
     }
 }
 
