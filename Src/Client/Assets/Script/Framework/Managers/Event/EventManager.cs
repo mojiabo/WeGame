@@ -4,30 +4,30 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class EventManager : ManagerBase, IDisposable
-    {
-        public SocketEvent SocketEvent
-        {
-            private set;
-            get;
-        }
+	public class EventManager : ManagerBase, IDisposable
+	{
+		public SocketEvent SocketEvent
+		{
+			private set;
+			get;
+		}
 
-        public CommonEvent CommonEvent
-        {
-            private set;
-            get;
-        }
+		public CommonEvent CommonEvent
+		{
+			private set;
+			get;
+		}
 
-        public EventManager()
-        {
-            SocketEvent = new SocketEvent();
-            CommonEvent = new CommonEvent();
-        }
+		public EventManager()
+		{
+			SocketEvent = new SocketEvent();
+			CommonEvent = new CommonEvent();
+		}
 
-        public void Dispose()
-        {
-            SocketEvent.Dispose();
-            CommonEvent.Dispose();
-        }
-    }
+		public void Dispose()
+		{
+			SocketEvent.Dispose();
+			CommonEvent.Dispose();
+		}
+	}
 }

@@ -3,21 +3,53 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class TimeComponent : BaseComponent,IUpdateComponent
-    {
+	public class TimeComponent : BaseComponent,IUpdateComponent
+	{
+		protected override void OnAwake()
+		{
+			base.OnAwake();
+			GameEntry.RegisterUpdateComponent(this);
+			TimeManager = new TimeManager();
+		}
 
-        protected override void OnAwake()
-        {
-            base.OnAwake();
-            GameEntry.RegisterUpdateComponent(this);
-        }
-        public void OnUpdate()
-        {
-         //  Debug.Log(this.name+"OnUpdate");
-        }
-        public override void Shutdown()
-        {
-           // Debug.Log(this.name+"关闭组件");
-        }
-    }
+		#region 定时器相关
+		private TimeManager TimeManager;
+
+		/// <summary>
+		/// 创建定时器
+		/// </summary>
+		/// <returns></returns>
+		public TimeAction CreateTimeAction()
+		{
+			return new TimeAction();
+		}
+
+		/// <summary>
+		/// 注册定时器
+		/// </summary>
+		/// <param name="timeAction"></param>
+		internal void RegisterTimeAction(TimeAction timeAction)
+		{
+			TimeManager.RegisterTimeAction(timeAction);
+		}
+
+		/// <summary>
+		/// 移除定时器
+		/// </summary>
+		/// <param name="timeAction"></param>
+		internal void RemoveTimeAction(TimeAction timeAction)
+		{
+			TimeManager.RemoveTimeAction(timeAction);
+		}
+		#endregion
+
+		public void OnUpdate()
+		{
+			TimeManager.OnUpdate();
+		}
+		public override void Shutdown()
+		{
+			TimeManager.Dispose();
+		}
+	}
 }
