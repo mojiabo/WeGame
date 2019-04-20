@@ -93,6 +93,7 @@
     <Compile Include="Assets\Script\Framework\Managers\Http\HttpManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Localization\LocalizationManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\ManagerBase.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Pool\ClassObjectPool.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Pool\PoolManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Resource\ResourceManager.cs" />
