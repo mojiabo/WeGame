@@ -1,0 +1,6 @@
+/.vs
+/.vscode
+*.log
+/Temp
+/vendor
+/Library

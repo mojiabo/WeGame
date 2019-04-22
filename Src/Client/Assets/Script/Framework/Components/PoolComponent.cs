@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
 {
-    public class PoolComponent : BaseComponent
+    public class PoolComponent : BaseComponent,IUpdateComponent
     {
         public PoolManager PoolManager
         {
@@ -15,6 +15,8 @@ namespace Framework
         {
             base.OnAwake();
             PoolManager = new PoolManager();
+            GameEntry.RegisterUpdateComponent(this);
+            m_NextRunTime = Time.time;
         }
 
         /// <summary>
@@ -24,7 +26,7 @@ namespace Framework
         /// <returns></returns>
         public T Dequeue<T>() where T : class, new()
         {
-           return PoolManager.ClassObjectPool.Dequeue<T>();
+           return PoolManager.ClassObjectPool.DequeueClassObjectPool<T>();
         }
 
         /// <summary>
@@ -32,12 +34,32 @@ namespace Framework
         /// </summary>
         public void Enqueue(object obj)
         {
-            PoolManager.ClassObjectPool.Enqueue(obj);
+            PoolManager.ClassObjectPool.EnqueueClassObjectPool(obj);
         }
 
         public override void Shutdown()
         {
             PoolManager.Dispose();
+        }
+
+        /// <summary>
+        ///释放时间间隔 
+        /// </summary>
+        [SerializeField]
+        public int m_ClearInterval = 30;
+        /// <summary>
+        /// 下次运行时间
+        /// </summary>
+        private float m_NextRunTime;
+
+        public void OnUpdate()
+        {
+            if (Time.time> m_NextRunTime+ m_ClearInterval)
+            {
+                m_NextRunTime = Time.time;
+
+                PoolManager.ClearClassObjectPool();
+            }
         }
     }
 }

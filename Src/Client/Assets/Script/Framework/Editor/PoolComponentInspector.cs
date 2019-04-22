@@ -7,10 +7,25 @@ namespace Framework
     [CustomEditor(typeof(PoolComponent),true)]
     public class PoolComponentInspector : Editor
     {
+        /// <summary>
+        /// 释放间隔 属性
+        /// </summary>
+        private SerializedProperty m_ClearInterval = null;
+
         public override void OnInspectorGUI()
         {
-            base.OnInspectorGUI();
+            serializedObject.Update();
             PoolComponent poolComponent=base.target as PoolComponent;
+
+            int clearInterval = (int)EditorGUILayout.Slider("清空类对象池间隔", m_ClearInterval.intValue,10,1800);
+            if (clearInterval != m_ClearInterval.intValue)
+            {
+                poolComponent.m_ClearInterval = clearInterval;
+            }
+            else
+            {
+                m_ClearInterval.intValue = clearInterval;
+            }
 
             GUILayout.BeginHorizontal("box");
             GUILayout.Label("类名");
@@ -31,7 +46,16 @@ namespace Framework
                 GUILayout.Label("0", GUILayout.Width(50));
                 GUILayout.EndHorizontal();
             }
+            serializedObject.ApplyModifiedProperties();
             Repaint();
+        }
+
+        private void OnEnable()
+        {
+            m_ClearInterval = serializedObject.FindProperty("m_ClearInterval");
+
+            serializedObject.ApplyModifiedProperties();
+
         }
 
     }

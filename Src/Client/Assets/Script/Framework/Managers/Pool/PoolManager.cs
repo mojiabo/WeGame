@@ -18,6 +18,15 @@ namespace Framework
             ClassObjectPool = new ClassObjectPool();
         }
 
+        /// <summary>
+        /// 释放类对象池
+        /// </summary>
+        public void ClearClassObjectPool()
+        {
+
+            ClassObjectPool.Clear();
+        }
+
         public void Dispose()
         {
             ClassObjectPool.Dispose();

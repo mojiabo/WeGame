@@ -20,7 +20,7 @@ namespace Framework
             if (Input.GetKeyDown(KeyCode.A))
             {
                 TimeAction timeAction = GameEntry.Time.CreateTimeAction();
-                timeAction.Init(1, 1, 8,()=> 
+                timeAction.Init(1, 1, 1,()=> 
                 {
                     Debug.Log("定时器开始");
                 },(int loop)=>
