@@ -5,12 +5,16 @@ namespace Framework
 {
     public class PoolComponent : BaseComponent
     {
-        private PoolManager m_PoolManager;
+        public PoolManager PoolManager
+        {
+            private set;
+            get;
+        }
 
         protected override void OnAwake()
         {
             base.OnAwake();
-            m_PoolManager = new PoolManager();
+            PoolManager = new PoolManager();
         }
 
         /// <summary>
@@ -20,7 +24,7 @@ namespace Framework
         /// <returns></returns>
         public T Dequeue<T>() where T : class, new()
         {
-           return m_PoolManager.ClassObjectPool.Dequeue<T>();
+           return PoolManager.ClassObjectPool.Dequeue<T>();
         }
 
         /// <summary>
@@ -28,12 +32,12 @@ namespace Framework
         /// </summary>
         public void Enqueue(object obj)
         {
-            m_PoolManager.ClassObjectPool.Enqueue(obj);
+            PoolManager.ClassObjectPool.Enqueue(obj);
         }
 
         public override void Shutdown()
         {
-            m_PoolManager.Dispose();
+            PoolManager.Dispose();
         }
     }
 }
