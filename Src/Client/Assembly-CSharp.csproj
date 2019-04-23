@@ -88,7 +88,10 @@
     <Compile Include="Assets\Script\Framework\Managers\Event\CommonEventId.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Event\EventManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Event\SocketEvent.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\FSM\FSM.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\FSM\FSMBase.cs" />
     <Compile Include="Assets\Script\Framework\Managers\FSM\FSMManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\FSM\FSMState.cs" />
     <Compile Include="Assets\Script\Framework\Managers\GameObj\GameObjManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Http\HttpManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Localization\LocalizationManager.cs" />

@@ -131,7 +131,7 @@ namespace Framework
         {
             lock (m_ClassObjectPoolDic)
             {
-                Debug.Log("释放对象池");
+                Debug.Log("释放类的对象池");
 
                 List<int> lst = new List<int>(m_ClassObjectPoolDic.Keys);
 
