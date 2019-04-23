@@ -41,9 +41,14 @@ namespace Framework
             foreach (var item in poolComponent.PoolManager.ClassObjectPool.InspectorDic)
             {
                 GUILayout.BeginHorizontal("box");
-                GUILayout.Label(item.Key);
+                GUILayout.Label(item.Key.Name);
                 GUILayout.Label(item.Value.ToString(), GUILayout.Width(50));
-                GUILayout.Label("0", GUILayout.Width(50));
+
+                int key = item.Key.GetHashCode();
+                byte resideCount = 0;
+                poolComponent.PoolManager.ClassObjectPool.ClassObjectCount.TryGetValue(key,out resideCount);
+
+                GUILayout.Label(resideCount.ToString(), GUILayout.Width(50));
                 GUILayout.EndHorizontal();
             }
             serializedObject.ApplyModifiedProperties();

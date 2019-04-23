@@ -19,6 +19,18 @@ namespace Framework
             m_NextRunTime = Time.time;
         }
 
+
+        /// <summary>
+        /// 设置类的常驻数量
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="count"></param>
+        public void SetClassObjectResideCount<T>(byte count) where T : class
+        {
+            PoolManager.ClassObjectPool.SetClassObjectResideCount<T>(count);
+        }
+
+
         /// <summary>
         /// 取出一个对象
         /// </summary>

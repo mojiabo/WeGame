@@ -12,13 +12,36 @@ namespace Framework
     /// </summary>
     public class ClassObjectPool:System.IDisposable
     {
+        /// <summary>
+        /// 类的对象在池中的数量
+        /// </summary>
+        public Dictionary<int, byte> ClassObjectCount
+        {
+            private set;
+            get;
+        }
+        /// <summary>
+        /// 类对象池字典
+        /// </summary>
         private Dictionary<int, Queue<object>> m_ClassObjectPoolDic;
 #if UNITY_EDITOR
-        public Dictionary<string,int> InspectorDic=new Dictionary<string,int>();
+        public Dictionary<Type,int> InspectorDic=new Dictionary<Type,int>();
 #endif
         public ClassObjectPool()
         {
             m_ClassObjectPoolDic = new Dictionary<int, Queue<object>>();
+            ClassObjectCount = new Dictionary<int, byte>();
+        }
+
+        /// <summary>
+        /// 设置类的长度数量
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="count"></param>
+        public void SetClassObjectResideCount<T>(byte count) where  T :class
+        {
+            int key = typeof(T).GetHashCode();
+            ClassObjectCount[key] = count;
         }
 
         /// <summary>
@@ -41,22 +64,23 @@ namespace Framework
                     m_ClassObjectPoolDic[key] = queue;
                 }
 
+                object obj = queue.Dequeue();
                 if (queue.Count>0)
                 {
 #if UNITY_EDITOR
-                    string className = typeof(T).Name;
-                    if (InspectorDic.ContainsKey(className))
+                    Type t = obj.GetType();
+                    if (InspectorDic.ContainsKey(t))
                     {
-                        InspectorDic[className]--;
+                        InspectorDic[t]--;
                     }
                     else
                     {
-                        InspectorDic[className] = 0;
+                        InspectorDic[t] = 0;
                     }
 #endif
 
                     Debug.Log("对象"+key+" 存在 从池中取");
-                    return (T)queue.Dequeue();
+                    return (T)obj;
                 }
                 else
                 {
@@ -80,14 +104,14 @@ namespace Framework
                 m_ClassObjectPoolDic.TryGetValue(key, out queue);
 
 #if UNITY_EDITOR
-                string className=obj.GetType().Name;
-                if (InspectorDic.ContainsKey(className))
+                Type t=obj.GetType();
+                if (InspectorDic.ContainsKey(t))
                 {
-                    InspectorDic[className]++;
+                    InspectorDic[t]++;
                 }
                 else
                 {
-                    InspectorDic[className] = 1;
+                    InspectorDic[t] = 1;
                 }
 #endif
 
@@ -105,49 +129,56 @@ namespace Framework
         /// </summary>
         public void Clear()
         {
-            Debug.Log("释放对象池");
-
-            List<int> lst = new List<int>(m_ClassObjectPoolDic.Keys);
-
-            int lstCount = lst.Count;
-            int queueCount = 0;
-
-            for (int i = 0; i < lstCount; i++)
+            lock (m_ClassObjectPoolDic)
             {
-                int key = lst[i];
+                Debug.Log("释放对象池");
 
-                Queue<object> queue = m_ClassObjectPoolDic[key];
+                List<int> lst = new List<int>(m_ClassObjectPoolDic.Keys);
 
-#if UNITY_EDITOR
-                string className = string.Empty;   
-#endif
+                int lstCount = lst.Count;
+                int queueCount = 0;
 
-                queueCount = queue.Count;
-                while (queueCount>0)
+                for (int i = 0; i < lstCount; i++)
                 {
-                    queueCount--;
-                    object obj = queue.Dequeue();//野指针
+                    int key = lst[i];
+
+                    Queue<object> queue = m_ClassObjectPoolDic[key];
 
 #if UNITY_EDITOR
-                    className = obj.GetType().Name;
-                    InspectorDic[className]--;
+                    Type t = null;
 #endif
+
+                    queueCount = queue.Count;
+
+                    byte resideCount = 0; //内存长度数量
+                    ClassObjectCount.TryGetValue(key, out resideCount);
+
+                    while (queueCount > resideCount)
+                    {
+                        queueCount--;
+                        object obj = queue.Dequeue();//野指针
+
+#if UNITY_EDITOR
+                        t = obj.GetType();
+                        InspectorDic[t]--;
+#endif
+
+                    }
+
+                    if (queueCount == 0)
+                    {                  
+#if UNITY_EDITOR
+                        if (t!=null)
+                        {
+                            InspectorDic.Remove(t);
+                        }                        
+#endif
+                    }
 
                 }
 
-                if (queueCount==0)
-                {
-                    m_ClassObjectPoolDic[key] = null;
-                    m_ClassObjectPoolDic.Remove(key);
-
-#if UNITY_EDITOR
-                    InspectorDic.Remove(className);
-#endif
-                }
-
-            }
-
-            GC.Collect();
+                GC.Collect();
+            }        
         }
 
         public void Dispose()
