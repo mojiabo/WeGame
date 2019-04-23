@@ -94,6 +94,8 @@
     <Compile Include="Assets\Script\Framework\Managers\Localization\LocalizationManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\ManagerBase.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Pool\ClassObjectPool.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Pool\GameObjectPool.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Pool\GameObjectPoolEntity.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Pool\PoolManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Resource\ResourceManager.cs" />
@@ -104,6 +106,7 @@
     <Compile Include="Assets\Script\Framework\Managers\Time\TimeManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIManager.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestEvent.cs" />
+    <Compile Include="Assets\Script\Framework\Test\TestPool.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestTime.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/WeGame/WeGame/Src/Client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -345,6 +348,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/2018/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{079D398E-4AFC-CD7E-7881-F923D075EBD1}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

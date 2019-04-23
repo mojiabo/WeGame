@@ -17,20 +17,20 @@ namespace Framework
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                TimeAction timeAction = GameEntry.Time.CreateTimeAction();
-                timeAction.Init(1, 1, 1,()=> 
-                {
-                    Debug.Log("定时器开始");
-                },(int loop)=>
-                {
-                    Debug.Log("定时剩余循环次数="+loop);
-                },()=> 
-                {
-                    Debug.Log("定时完毕");
-                }).Run();
-            }
+            //if (Input.GetKeyDown(KeyCode.A))
+            //{
+            //    TimeAction timeAction = GameEntry.Time.CreateTimeAction();
+            //    timeAction.Init(1, 1, 1,()=> 
+            //    {
+            //        Debug.Log("定时器开始");
+            //    },(int loop)=>
+            //    {
+            //        Debug.Log("定时剩余循环次数="+loop);
+            //    },()=> 
+            //    {
+            //        Debug.Log("定时完毕");
+            //    }).Run();
+            //}
         }
 
     }

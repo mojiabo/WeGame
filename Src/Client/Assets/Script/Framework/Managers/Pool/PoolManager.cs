@@ -13,9 +13,16 @@ namespace Framework
             get;
         }
 
+        public GameObjectPool GameObjectPool
+        {
+            private set;
+            get;
+        }
+
         public PoolManager()
         {
             ClassObjectPool = new ClassObjectPool();
+            GameObjectPool = new GameObjectPool();
         }
 
         /// <summary>
@@ -30,6 +37,7 @@ namespace Framework
         public void Dispose()
         {
             ClassObjectPool.Dispose();
+            GameObjectPool.Dispose();
         }
     }
 }

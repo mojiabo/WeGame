@@ -166,3 +166,4 @@ C:\WeGame\WeGame\Src\Client\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.c
 C:\WeGame\WeGame\Src\Client\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\WeGame\WeGame\Src\Client\obj\Debug\Assembly-CSharp.dll
 C:\WeGame\WeGame\Src\Client\obj\Debug\Assembly-CSharp.pdb
+C:\WeGame\WeGame\Src\Client\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

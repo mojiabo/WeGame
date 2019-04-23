@@ -11,6 +11,11 @@ namespace Framework
         /// 释放间隔 属性
         /// </summary>
         private SerializedProperty m_ClearInterval = null;
+        /// <summary>
+        /// 对象池分组 属性
+        /// </summary>
+        private SerializedProperty m_GameObjectPoolGroups = null;
+        
 
         public override void OnInspectorGUI()
         {
@@ -33,24 +38,25 @@ namespace Framework
             GUILayout.Label("常驻数量",GUILayout.Width(50));
             GUILayout.EndHorizontal();
 
-            if (poolComponent==null||poolComponent.PoolManager==null)
+            if (poolComponent!=null&&poolComponent.PoolManager!=null)
             {
-                return;
+                foreach (var item in poolComponent.PoolManager.ClassObjectPool.InspectorDic)
+                {
+                    GUILayout.BeginHorizontal("box");
+                    GUILayout.Label(item.Key.Name);
+                    GUILayout.Label(item.Value.ToString(), GUILayout.Width(50));
+
+                    int key = item.Key.GetHashCode();
+                    byte resideCount = 0;
+                    poolComponent.PoolManager.ClassObjectPool.ClassObjectCount.TryGetValue(key, out resideCount);
+
+                    GUILayout.Label(resideCount.ToString(), GUILayout.Width(50));
+                    GUILayout.EndHorizontal();
+                }
             }
 
-            foreach (var item in poolComponent.PoolManager.ClassObjectPool.InspectorDic)
-            {
-                GUILayout.BeginHorizontal("box");
-                GUILayout.Label(item.Key.Name);
-                GUILayout.Label(item.Value.ToString(), GUILayout.Width(50));
 
-                int key = item.Key.GetHashCode();
-                byte resideCount = 0;
-                poolComponent.PoolManager.ClassObjectPool.ClassObjectCount.TryGetValue(key,out resideCount);
-
-                GUILayout.Label(resideCount.ToString(), GUILayout.Width(50));
-                GUILayout.EndHorizontal();
-            }
+            EditorGUILayout.PropertyField(m_GameObjectPoolGroups,true);
             serializedObject.ApplyModifiedProperties();
             Repaint();
         }
@@ -58,6 +64,7 @@ namespace Framework
         private void OnEnable()
         {
             m_ClearInterval = serializedObject.FindProperty("m_ClearInterval");
+            m_GameObjectPoolGroups = serializedObject.FindProperty("m_GameObjectPoolGroups");
 
             serializedObject.ApplyModifiedProperties();
 

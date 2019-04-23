@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
+    <Compile Include="Assets\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
+    <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
     <Compile Include="Assets\Script\Framework\Editor\PoolComponentInspector.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/WeGame/WeGame/Src/Client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -361,6 +364,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{079D398E-4AFC-CD7E-7881-F923D075EBD1}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{12F44184-A422-5F27-22E6-507969043F15}</Project>
       <Name>Assembly-CSharp</Name>
