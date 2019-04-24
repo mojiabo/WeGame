@@ -16,6 +16,10 @@ namespace Framework
             m_InStanceId = GetInstanceID();
             OnAwake();
         }
+        private void Start()
+        {
+            OnStart();
+        }
         /// <summary>
         /// 组件实例编号
         /// </summary>
@@ -25,6 +29,8 @@ namespace Framework
         }
 
         protected virtual void OnAwake() { }
+
+        protected virtual void OnStart() { }
 
     }
 }

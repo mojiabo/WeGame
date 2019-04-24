@@ -16,14 +16,14 @@ namespace Framework
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                StartCoroutine(CreateObj());
-            }
-            if (Input.GetKeyDown(KeyCode.B))
-            {
-                GameEntry.Pool.InitGameObjectPool(); //切场景初始化 =销毁
-            }
+            //if (Input.GetKeyDown(KeyCode.A))
+            //{
+            //    StartCoroutine(CreateObj());
+            //}
+            //if (Input.GetKeyDown(KeyCode.B))
+            //{
+            //    GameEntry.Pool.InitGameObjectPool(); //切场景初始化 =销毁
+            //}
         }
 
         IEnumerator CreateObj()

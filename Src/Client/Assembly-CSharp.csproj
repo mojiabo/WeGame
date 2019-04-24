@@ -100,7 +100,17 @@
     <Compile Include="Assets\Script\Framework\Managers\Pool\GameObjectPool.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Pool\GameObjectPoolEntity.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Pool\PoolManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureBase.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureChangeScene.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureCheckVersion.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureEnterGame.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureGameLevel.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureLaunch.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureLogOn.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedurePreLoad.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureSelectRole.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureWorldMap.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Resource\ResourceManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Scene\SceneManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Setting\SettingManager.cs" />
@@ -110,6 +120,7 @@
     <Compile Include="Assets\Script\Framework\Managers\UI\UIManager.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestEvent.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestPool.cs" />
+    <Compile Include="Assets\Script\Framework\Test\TestProcedure.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestTime.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/WeGame/WeGame/Src/Client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

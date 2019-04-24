@@ -60,6 +60,10 @@ namespace Framework
         /// <param name="newState"></param>
         public void ChangeState(byte newState)
         {
+            if (CurrStateType == newState)
+            {
+                return;
+            }
             if (m_CurrState!=null)
             {
                 m_CurrState.OnLeave();
