@@ -1,6 +1,3 @@
-/.vs
-/.vscode
-*.log
-/Temp
-/vendor
-/Library
+##ignore this file##
+/Src/Client/Temp/
+/Src/Client/Library/
