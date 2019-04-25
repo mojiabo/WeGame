@@ -18,17 +18,6 @@ namespace Framework
             base.OnStart();
             m_ProcedureManager.Init();
         }
-
-        /// <summary>
-        /// 当前状态机参数字典
-        /// </summary>
-        /// <returns></returns>
-        public Dictionary<string, object> ParamDic
-        {
-            get{ return m_ProcedureManager.ParamDic; }
-            
-        }
-
         /// <summary>
         /// 当前得流程状态
         /// </summary>
@@ -53,6 +42,30 @@ namespace Framework
         {
             m_ProcedureManager.ChangeState(procedureState);
         }
+
+        /// <summary>
+        /// 设置参数
+        /// </summary>
+        /// <typeparam name="TData"></typeparam>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+        public void SetData<TData>(string key, TData value)
+        {
+            m_ProcedureManager.CurrFSm.SetData<TData>(key,value);
+        }
+
+        /// <summary>
+        /// 获取参数值
+        /// </summary>
+        /// <typeparam name="TData"></typeparam>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public TData GetData<TData>(string key)
+        {
+            return m_ProcedureManager.CurrFSm.GetData<TData>(key);
+        }
+
+
 
         public void OnUpdate()
         {

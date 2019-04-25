@@ -8,6 +8,12 @@ namespace Framework
         public override void OnEnter()
         {
             base.OnEnter();
+            Debug.Log("ProcedureEnterGame-->OnEnter");
+            string name = GameEntry.Procedure.GetData<string>("Name");
+            int code = GameEntry.Procedure.GetData<int>("Code");
+            Debug.Log("Name=="+name);
+            Debug.Log("Code==" + code);
+           
         }
 
         public override void OnUpdate()

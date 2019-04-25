@@ -36,6 +36,8 @@ public class TestProcedure : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.C))
         {
+            GameEntry.Procedure.SetData("Name","youyou");
+            GameEntry.Procedure.SetData("Code", 123321);
             GameEntry.Procedure.ChangeState(ProcedureState.EnterGame);
         }
     }
