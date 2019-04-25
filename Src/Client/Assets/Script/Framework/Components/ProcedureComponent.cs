@@ -20,6 +20,16 @@ namespace Framework
         }
 
         /// <summary>
+        /// 当前状态机参数字典
+        /// </summary>
+        /// <returns></returns>
+        public Dictionary<string, object> ParamDic
+        {
+            get{ return m_ProcedureManager.ParamDic; }
+            
+        }
+
+        /// <summary>
         /// 当前得流程状态
         /// </summary>
         public ProcedureState CurrProcedureState

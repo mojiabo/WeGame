@@ -65,6 +65,26 @@ namespace Framework
 
         }
 
+        /// <summary>
+        /// 设置参数
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+
+        public void SetParms(string key,object value)
+        {
+            m_CurrFSm.ParamDic[key] = value;
+        }
+        /// <summary>
+        /// 当前状态机参数字典
+        /// </summary>
+        /// <returns></returns>
+        public Dictionary<string, object> ParamDic
+        {
+            get { return m_CurrFSm.ParamDic; }
+           
+        }
+
         public void OnUpdate()
         {
             m_CurrFSm.OnUpdate();

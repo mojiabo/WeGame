@@ -13,14 +13,21 @@ namespace Framework
         /// 当前状态
         /// </summary>
         private FSMState<T> m_CurrState;
-
+        /// <summary>
+        /// 状态字典
+        /// </summary>
         private Dictionary<byte, FSMState<T>> m_StateDic;
+        /// <summary>
+        /// 参数字典
+        /// </summary>
+        public Dictionary<string, object> ParamDic;
         /// <summary>
         /// 构造函数
         /// </summary>
         public FSM(int fsmId,T owner, FSMState<T>[]status):base(fsmId)
         {
             m_StateDic = new Dictionary<byte, FSMState<T>>();
+            ParamDic = new Dictionary<string, object>();
 
             int len = status.Length;
 
