@@ -288,11 +288,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/2018/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/jiabo/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    <Reference Include="DemiLib">
+      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DemiLib/DemiLib.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/jiabo/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
       <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
@@ -300,23 +303,20 @@
     <Reference Include="DOTween50">
       <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DemiLib/DemiLib.dll</HintPath>
-    </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Plugins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="zlib.net">
       <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Plugins/zlib.net.dll</HintPath>
     </Reference>
-    <Reference Include="LitJson">
-      <HintPath>C:/WeGame/WeGame/Src/Client/Assets/Plugins/LitJson.dll</HintPath>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/jiabo/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/jiabo/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/2018/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
