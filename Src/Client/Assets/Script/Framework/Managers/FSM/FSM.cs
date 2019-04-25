@@ -139,6 +139,11 @@ namespace Framework
                 state.Value.OnDestroy();
             }
             m_StateDic.Clear();
+            foreach (KeyValuePair<string, VariableBase> paras in m_ParamDic)
+            {
+                paras.Value.Release();
+            }
+            m_ParamDic.Clear();
         }
     }
 }
