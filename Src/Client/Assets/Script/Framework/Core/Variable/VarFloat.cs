@@ -5,18 +5,18 @@ using UnityEngine;
 namespace Framework
 {
     /// <summary>
-    /// string变量
+    /// float变量
     /// </summary>
-    public class VarString : Variable<string>
+    public class VarFloat : Variable<float>
     {
         /// <summary>
         /// 分配一个对象
         /// </summary>
         /// <returns></returns>
-        public static VarString Alloc()
+        public static VarFloat Alloc()
         {
-            VarString var = GameEntry.Pool.DequeueVarObject<VarString>();
-            var.Value = string.Empty;
+            VarFloat var = GameEntry.Pool.DequeueVarObject<VarFloat>();
+            var.Value = 0;
             var.Retain();
             return var;
         }
@@ -26,18 +26,18 @@ namespace Framework
         /// </summary>
         /// <param name="value">初始值</param>
         /// <returns></returns>
-        public static VarString Alloc(string value)
+        public static VarFloat Alloc(float value)
         {
-            VarString var = Alloc();
+            VarFloat var = Alloc();
             var.Value = value;
             return var;
         }
 
         /// <summary>
-        /// VarString -> string
+        /// VarFloat -> float
         /// </summary>
         /// <param name="value"></param>
-        public static implicit operator string(VarString value)
+        public static implicit operator float(VarFloat value)
         {
             return value.Value;
         }

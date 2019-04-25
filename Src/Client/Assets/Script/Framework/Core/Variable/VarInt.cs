@@ -11,7 +11,8 @@ namespace Framework
         /// <returns></returns>
         public static VarInt Alloc()
         {
-            VarInt varInt = new VarInt();
+            VarInt varInt = GameEntry.Pool.DequeueVarObject<VarInt>();
+            varInt.Value = 0;
             varInt.Retain();
             return varInt;
         }
@@ -21,7 +22,7 @@ namespace Framework
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public static VarInt ALloc(int value)
+        public static VarInt Alloc(int value)
         {
             VarInt var = Alloc();
             var.Value = value;

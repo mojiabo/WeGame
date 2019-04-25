@@ -5,18 +5,18 @@ using UnityEngine;
 namespace Framework
 {
     /// <summary>
-    /// string变量
+    /// GameObject变量
     /// </summary>
-    public class VarString : Variable<string>
+    public class VarGameObject : Variable<GameObject>
     {
         /// <summary>
         /// 分配一个对象
         /// </summary>
         /// <returns></returns>
-        public static VarString Alloc()
+        public static VarGameObject Alloc()
         {
-            VarString var = GameEntry.Pool.DequeueVarObject<VarString>();
-            var.Value = string.Empty;
+            VarGameObject var = GameEntry.Pool.DequeueVarObject<VarGameObject>();
+            var.Value = null;
             var.Retain();
             return var;
         }
@@ -26,18 +26,18 @@ namespace Framework
         /// </summary>
         /// <param name="value">初始值</param>
         /// <returns></returns>
-        public static VarString Alloc(string value)
+        public static VarGameObject Alloc(GameObject value)
         {
-            VarString var = Alloc();
+            VarGameObject var = Alloc();
             var.Value = value;
             return var;
         }
 
         /// <summary>
-        /// VarString -> string
+        /// VarGameObject -> GameObject
         /// </summary>
         /// <param name="value"></param>
-        public static implicit operator string(VarString value)
+        public static implicit operator GameObject(VarGameObject value)
         {
             return value.Value;
         }

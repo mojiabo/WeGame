@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Framework
@@ -61,7 +62,7 @@ namespace Framework
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
-        public T Dequeue<T>() where T : class, new()
+        public T DequeueClassObject<T>() where T : class, new()
         {
             return PoolManager.ClassObjectPool.DequeueClassObjectPool<T>();
         }
@@ -69,9 +70,73 @@ namespace Framework
         /// <summary>
         /// 对象回池
         /// </summary>
-        public void Enqueue(object obj)
+        public void EnqueueClassObject(object obj)
         {
             PoolManager.ClassObjectPool.EnqueueClassObjectPool(obj);
+        }
+        #endregion
+
+        #region 变量对象池
+
+        private object m_VarLockObject = new object();
+
+        /// <summary>
+        /// 监视面板显示的数据
+        /// </summary>
+        public Dictionary<Type, int> VarObjectInspectorDic = new Dictionary<Type, int>();
+
+        /// <summary>
+        /// 取出一个变量对象
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public T DequeueVarObject<T>() where T : VariableBase, new()
+        {
+            lock (m_VarLockObject)
+            {
+
+                T item = DequeueClassObject<T>();
+#if UNITY_EDITOR
+                Type type = item.GetType();
+                if (VarObjectInspectorDic.ContainsKey(type))
+                {
+                    VarObjectInspectorDic[type]++;
+                }
+                else
+                {
+                    VarObjectInspectorDic[type] = 1;
+                }
+#endif
+
+                return item;
+            }    
+        }
+
+        /// <summary>
+        /// 变量对象回池
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public void EnqueueVarObject<T>(T item) where T : VariableBase
+        {
+            lock (m_VarLockObject)
+            {
+                EnqueueClassObject(item);
+
+#if UNITY_EDITOR
+                Type type = item.GetType();
+                if (VarObjectInspectorDic.ContainsKey(type))
+                {
+                    VarObjectInspectorDic[type]--;
+                    if (VarObjectInspectorDic[type] == 0)
+                    {
+                        VarObjectInspectorDic.Remove(type);
+                    }
+                }
+
+#endif
+
+            }
         }
         #endregion
 

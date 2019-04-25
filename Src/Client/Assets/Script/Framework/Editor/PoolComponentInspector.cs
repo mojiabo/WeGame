@@ -31,7 +31,9 @@ namespace Framework
             {
                 m_ClearInterval.intValue = clearInterval;
             }
-
+            //================类对象池开始================
+            GUILayout.Space(10);
+            GUILayout.BeginVertical("box");
             GUILayout.BeginHorizontal("box");
             GUILayout.Label("类名");
             GUILayout.Label("池中数量",GUILayout.Width(50));
@@ -54,7 +56,31 @@ namespace Framework
                     GUILayout.EndHorizontal();
                 }
             }
+            GUILayout.EndVertical();
+            GUILayout.Space(10);
+            //================类对象池结束================
 
+            //================变量计数开始================
+            GUILayout.Space(10);
+            GUILayout.BeginVertical("box");
+            GUILayout.BeginHorizontal("box");
+            GUILayout.Label("变量");
+            GUILayout.Label("数量", GUILayout.Width(50));
+            GUILayout.EndHorizontal();
+           
+            if (poolComponent != null)
+            {
+                foreach (var item in poolComponent.VarObjectInspectorDic)
+                {
+                    GUILayout.BeginHorizontal("box");
+                    GUILayout.Label(item.Key.Name);
+                    GUILayout.Label(item.Value.ToString(), GUILayout.Width(50));
+                    GUILayout.EndHorizontal();
+                }
+            }
+            GUILayout.EndVertical();
+            GUILayout.Space(10);
+            //================变量计数结束================
 
             EditorGUILayout.PropertyField(m_GameObjectPoolGroups,true);
             serializedObject.ApplyModifiedProperties();

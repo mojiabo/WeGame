@@ -63,10 +63,10 @@ namespace Framework
                     queue = new Queue<object>();
                     m_ClassObjectPoolDic[key] = queue;
                 }
-
-                object obj = queue.Dequeue();
+          
                 if (queue.Count>0)
                 {
+                    object obj = queue.Dequeue();
 #if UNITY_EDITOR
                     Type t = obj.GetType();
                     if (InspectorDic.ContainsKey(t))

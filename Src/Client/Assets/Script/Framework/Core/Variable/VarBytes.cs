@@ -5,18 +5,18 @@ using UnityEngine;
 namespace Framework
 {
     /// <summary>
-    /// string变量
+    /// byte[]变量
     /// </summary>
-    public class VarString : Variable<string>
+    public class VarBytes : Variable<byte[]>
     {
         /// <summary>
         /// 分配一个对象
         /// </summary>
         /// <returns></returns>
-        public static VarString Alloc()
+        public static VarBytes Alloc()
         {
-            VarString var = GameEntry.Pool.DequeueVarObject<VarString>();
-            var.Value = string.Empty;
+            VarBytes var = GameEntry.Pool.DequeueVarObject<VarBytes>();
+            var.Value = null;
             var.Retain();
             return var;
         }
@@ -26,18 +26,18 @@ namespace Framework
         /// </summary>
         /// <param name="value">初始值</param>
         /// <returns></returns>
-        public static VarString Alloc(string value)
+        public static VarBytes Alloc(byte[] value)
         {
-            VarString var = Alloc();
+            VarBytes var = Alloc();
             var.Value = value;
             return var;
         }
 
         /// <summary>
-        /// VarString -> string
+        /// VarBytes -> byte[]
         /// </summary>
         /// <param name="value"></param>
-        public static implicit operator string(VarString value)
+        public static implicit operator byte[](VarBytes value)
         {
             return value.Value;
         }

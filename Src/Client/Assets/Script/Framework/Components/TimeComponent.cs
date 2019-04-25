@@ -21,7 +21,7 @@ namespace Framework
 		/// <returns></returns>
 		public TimeAction CreateTimeAction()
 		{
-            return GameEntry.Pool.Dequeue<TimeAction>();
+            return GameEntry.Pool.DequeueClassObject<TimeAction>();
 			
 		}
 
@@ -41,7 +41,7 @@ namespace Framework
 		internal void RemoveTimeAction(TimeAction timeAction)
 		{
             TimeManager.RemoveTimeAction(timeAction);
-            GameEntry.Pool.Enqueue(timeAction);         
+            GameEntry.Pool.EnqueueClassObject(timeAction);         
 		}
 		#endregion
 

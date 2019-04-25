@@ -42,7 +42,7 @@ namespace Framework
             ReferenceCount--;
             if (ReferenceCount<1)
             {
-
+                GameEntry.Pool.EnqueueVarObject(this);
             }
         }
     }
