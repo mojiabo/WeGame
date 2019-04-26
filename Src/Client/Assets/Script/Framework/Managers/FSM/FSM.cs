@@ -42,6 +42,7 @@ namespace Framework
             CurrStateType = 0;
 
             m_CurrState = m_StateDic[CurrStateType];
+            m_CurrState.OnEnter();
         }
 
         public FSMState<T> GetState(byte staeteType)

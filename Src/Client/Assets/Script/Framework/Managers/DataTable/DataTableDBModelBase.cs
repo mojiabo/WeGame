@@ -23,7 +23,7 @@ namespace Framework
         /// <summary>
         /// 数据表名
         /// </summary>
-        protected abstract string DataTableName { get; }
+        public abstract string DataTableName { get; }
 
         /// <summary>
         /// 加载数据列表
@@ -43,6 +43,7 @@ namespace Framework
             {
                 LoadList(ms);
             }
+            GameEntry.Event.CommonEvent.Dispatch(SystemEventId.LoadDataOneTableCompelete,DataTableName);
         }
 
         /// <summary>
@@ -67,5 +68,10 @@ namespace Framework
             return null;
         }
 
+        public void Clear()
+        {
+            m_List.Clear();
+            m_dic.Clear();
+        }
     }
 }

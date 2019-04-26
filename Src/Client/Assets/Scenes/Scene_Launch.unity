@@ -788,6 +788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db37d60751412524dbf79c0920377a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_WebAccountUrl: 
+  m_TestWebAccountUrl: 
+  m_IsTest: 0
 --- !u!1 &1461459947
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,6 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f1505f2917dfa4eb717c3a79641120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LocalFilePath: 
 --- !u!1 &1700142038
 GameObject:
   m_ObjectHideFlags: 0

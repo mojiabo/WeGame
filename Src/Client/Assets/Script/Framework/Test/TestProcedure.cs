@@ -28,17 +28,23 @@ public class TestProcedure : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.A))
         {
+            GameEntry.Procedure.ChangeState(ProcedureState.PreLoad);
             Debug.Log(GameEntry.Procedure.CurrProcedure);
         }
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            GameEntry.Procedure.ChangeState(ProcedureState.ChangeScene);
-        }
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            GameEntry.Procedure.SetData("Name","youyou");
-            GameEntry.Procedure.SetData("Code", 123321);
-            GameEntry.Procedure.ChangeState(ProcedureState.EnterGame);
-        }
+
+        //if (Input.GetKeyDown(KeyCode.A))
+        //{
+        //    Debug.Log(GameEntry.Procedure.CurrProcedure);
+        //}
+        //if (Input.GetKeyDown(KeyCode.B))
+        //{
+        //    GameEntry.Procedure.ChangeState(ProcedureState.ChangeScene);
+        //}
+        //if (Input.GetKeyDown(KeyCode.C))
+        //{
+        //    GameEntry.Procedure.SetData("Name","youyou");
+        //    GameEntry.Procedure.SetData("Code", 123321);
+        //    GameEntry.Procedure.ChangeState(ProcedureState.EnterGame);
+        //}
     }
 }

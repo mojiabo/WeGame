@@ -133,14 +133,12 @@ namespace Framework
             {
                 Debug.Log("释放类的对象池");
 
-                List<int> lst = new List<int>(m_ClassObjectPoolDic.Keys);
-
-                int lstCount = lst.Count;
                 int queueCount = 0;
+                var enumerator=m_ClassObjectPoolDic.GetEnumerator();
 
-                for (int i = 0; i < lstCount; i++)
+                while (enumerator.MoveNext())
                 {
-                    int key = lst[i];
+                    int key = enumerator.Current.Key;
 
                     Queue<object> queue = m_ClassObjectPoolDic[key];
 
@@ -166,17 +164,17 @@ namespace Framework
                     }
 
                     if (queueCount == 0)
-                    {                  
+                    {
 #if UNITY_EDITOR
-                        if (t!=null)
+                        if (t != null)
                         {
                             InspectorDic.Remove(t);
-                        }                        
+                        }
 #endif
                     }
 
-                }
 
+                }        
                 GC.Collect();
             }        
         }

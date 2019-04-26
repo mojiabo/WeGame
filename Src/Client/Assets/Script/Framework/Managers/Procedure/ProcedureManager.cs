@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+
 namespace Framework
 {
     public enum ProcedureState
@@ -20,7 +22,7 @@ namespace Framework
     /// <summary>
     /// 流程管理器
     /// </summary>
-    public class ProcedureManager : ManagerBase, System.IDisposable
+    public class ProcedureManager : ManagerBase,IDisposable
     {
         //流程状态机
         private FSM<ProcedureManager> m_CurrFSm;
@@ -89,7 +91,7 @@ namespace Framework
 
         public void Dispose()
         {
-            m_CurrFSm.ShutDown();
+            
         }
     }
 }

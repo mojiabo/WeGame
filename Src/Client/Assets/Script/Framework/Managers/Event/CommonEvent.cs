@@ -79,7 +79,7 @@ namespace Framework
                 {
                     OnActionHandle handle = lstHandle[i];
 
-                    if (handle != null && handle.Target != null)
+                    if (handle != null)
                     {
                         handle(userData);
                     }

@@ -46,10 +46,12 @@ namespace Framework
 
         public void Dispose()
         {
-            foreach (KeyValuePair<int, FSMBase> fsm in m_FSMDic)
+            var enumerator=m_FSMDic.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                fsm.Value.ShutDown();
+                enumerator.Current.Value.ShutDown();
             }
+
             m_FSMDic.Clear();
         }
     }

@@ -569,7 +569,9 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   scriptingDefineSymbols:
-    1: HOTFIX_ENABLE
+    1: DEBUG_LOG_PROTO;DISABLE_ASSETBUNDLE;HOTFIX_ENABLE
+    4: DEBUG_LOG_PROTO;DISABLE_ASSETBUNDLE;HOTFIX_ENABLE
+    7: DEBUG_LOG_PROTO;DISABLE_ASSETBUNDLE;HOTFIX_ENABLE
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

@@ -31,7 +31,7 @@ namespace Framework
         /// <returns></returns>
         public byte[] GetFileBuffer(string path)
         {
-
+            Debug.Log(path);
             byte[] buffer = null;
             using (FileStream fs = new FileStream(path, FileMode.Open))
             {
