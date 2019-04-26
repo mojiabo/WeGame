@@ -28,12 +28,6 @@ namespace Framework
 		/// </summary>
 		private Queue<byte[]> m_SendQueue = new Queue<byte[]>();
 
-		/// <summary>
-		/// 检查队列委托
-		/// </summary>
-		private Action m_CheckSendQueue;
-
-
 		#endregion
 		#region 接收数据所需变量
 		/// <summary>
@@ -50,6 +44,18 @@ namespace Framework
 		private Queue<byte[]> m_ReceiveQueue = new Queue<byte[]>();
 
 		private int m_ReceiveCount = 0;
+		/// <summary>
+		/// 这一帧发送了多少
+		/// </summary>
+		private int m_SendCount = 0;
+
+		/// <summary>
+		/// 是否有未处理的包
+		/// </summary>
+		private bool m_isUnDealBytes = false;
+
+		private byte[] m_UnDealBytes = null;
+
 		#endregion
 		public Action OnConectOk;
 		public void DisConnected()
@@ -59,15 +65,15 @@ namespace Framework
 			{
 				m_Client.Shutdown(SocketShutdown.Both);
 				m_Client.Close();
-                GameEntry.Socket.RemoveSocketTcpRoutine(this);
-            }
+				GameEntry.Socket.RemoveSocketTcpRoutine(this);
+			}
 		}
 		internal void OnUpdate()
 		{
 			#region 接收数据
 			while (true)
 			{
-				if (m_ReceiveCount <= 5)
+				if (m_ReceiveCount <= GameEntry.Socket.MaxReveiceCount)
 				{
 					m_ReceiveCount++;
 					lock (m_ReceiveQueue)
@@ -149,9 +155,8 @@ namespace Framework
 			try
 			{
 				m_Client.Connect(new IPEndPoint(IPAddress.Parse(ip), port));
-				m_CheckSendQueue = OnCheckSendQueueCallBack;
 				Debug.Log("连接成功");
-                GameEntry.Socket.RegisterSocketTcpRoutine(this);
+				GameEntry.Socket.RegisterSocketTcpRoutine(this);
 				ReceiveNsg();
 				if (OnConectOk != null)
 				{
@@ -160,23 +165,63 @@ namespace Framework
 			}
 			catch (Exception ex)
 			{
-               
-                Debug.Log("连接失败" + ex.Message);
+			   
+				Debug.Log("连接失败" + ex.Message);
 
 			}
 		}
 		#endregion
-		#region OnCheckSendQueueCallBack检查队列委托的回调
+		#region OnCheckSendQueueCallBack 检查发送队列
 		/// <summary>
-		/// 检查队列委托的回调
+		/// 检查发送队列
 		/// </summary>
-		private void OnCheckSendQueueCallBack()
+		private void CheckSendQueue()
 		{
-			//如果队列中有数据包 则发送数据包
-			if (m_SendQueue.Count > 0)
+			if (m_SendCount>=GameEntry.Socket.MaxSendCount)
 			{
-				Send(m_SendQueue.Dequeue());
+				m_SendCount = 0;
+				return;
 			}
+
+			lock (m_SendQueue)
+			{
+				if (m_SendQueue.Count > 0||m_isUnDealBytes)
+				{
+					MMO_MemoryStream ms = GameEntry.Socket.CommonMemoryStream;
+					ms.SetLength(0);
+
+					if (m_isUnDealBytes) //先处理未处理的包
+					{
+						m_isUnDealBytes = false;
+						ms.Write(m_UnDealBytes, 0, m_UnDealBytes.Length);
+					}
+
+					while (true)
+					{
+						if (m_SendQueue.Count == 0)
+						{
+							break;
+						}
+
+						byte[] buffer = m_SendQueue.Dequeue();
+						if (buffer.Length+ms.Length<=GameEntry.Socket.MaxSendByteCount)
+						{
+							ms.Write(buffer,0,buffer.Length);
+						}
+						else
+						{
+							m_isUnDealBytes = true;
+
+							m_UnDealBytes = buffer;
+
+							break;
+						}
+					}
+					m_SendCount++;
+					Send(ms.ToArray());
+				}
+			}
+
 		}
 		#endregion
 		#region MakeData封装数据包
@@ -200,15 +245,15 @@ namespace Framework
 			//crc校验
 			ushort crc = Crc16.CalculateCrc16(data);
 
-			using (MMO_MemoryStream ms = new MMO_MemoryStream())
-			{
+				MMO_MemoryStream ms = GameEntry.Socket.CommonMemoryStream;
+				ms.SetLength(0);
 				ms.WriteUShort((ushort)(data.Length + 3));
 				ms.WriteBool(isCompress);
 				ms.WriteUShort(crc);
 				ms.Write(data, 0, data.Length);
 
 				retBuffer = ms.ToArray();
-			}
+			
 			return retBuffer;
 
 		}
@@ -226,8 +271,6 @@ namespace Framework
 			lock (m_SendQueue)
 			{
 				m_SendQueue.Enqueue(sendBuffer);
-
-				m_CheckSendQueue.BeginInvoke(null, null);
 			}
 		}
 		#endregion
@@ -246,8 +289,6 @@ namespace Framework
 		private void SendCallBack(IAsyncResult ar)
 		{
 			m_Client.EndSend(ar);
-
-			OnCheckSendQueueCallBack();
 		}
 		#endregion
 

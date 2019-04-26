@@ -6,12 +6,35 @@ namespace Framework
     public class SocketComponent : BaseComponent,IUpdateComponent
     {
         private SocketManager m_SocketManager;
- 
+
+        public MMO_MemoryStream CommonMemoryStream
+        {
+            private set;
+            get;
+        }
+        /// <summary>
+        /// 每帧最大发送包数量
+        /// </summary>
+        [Header("每帧最大发送数量")]
+        public int MaxSendCount=5;
+        /// <summary>
+        /// 每次发包的最大字节
+        /// </summary>
+        [Header("每次发包的最大字节")]
+        public int MaxSendByteCount;
+
+        /// <summary>
+        /// 每帧最大发送包数量
+        /// </summary>
+        [Header("每帧最大接受数量")]
+        public int MaxReveiceCount = 5;
+
         protected override void OnAwake()
         {
             base.OnAwake();
             GameEntry.RegisterUpdateComponent(this);
             m_SocketManager = new SocketManager();
+            CommonMemoryStream = new MMO_MemoryStream();
         }
         protected override void OnStart()
         {
@@ -55,6 +78,8 @@ namespace Framework
             GameEntry.RemoveUpdateComponent(this);
             GameEntry.Pool.EnqueueClassObject(m_MainSocket);
             m_SocketManager.Dispose();
+            CommonMemoryStream.Dispose();
+            CommonMemoryStream.Close();
         }
 
         //========================================
