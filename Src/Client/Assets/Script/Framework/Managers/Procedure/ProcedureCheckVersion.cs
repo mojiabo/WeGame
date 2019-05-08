@@ -8,6 +8,7 @@ namespace Framework
         public override void OnEnter()
         {
             base.OnEnter();
+            GameEntry.Procedure.ChangeState(ProcedureState.PreLoad);
         }
 
         public override void OnUpdate()

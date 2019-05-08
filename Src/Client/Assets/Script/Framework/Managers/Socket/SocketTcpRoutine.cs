@@ -17,7 +17,7 @@ namespace Framework
 		/// 客户端Socket
 		/// </summary>
 		private Socket m_Client;
-		// private byte[] buffer = new byte[10240];
+
 		/// <summary>
 		/// 压缩数组的长度界限
 		/// </summary>

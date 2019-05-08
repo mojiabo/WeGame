@@ -21,11 +21,21 @@ namespace Framework
         }
 
         /// <summary>
+        /// 系统UI表
+        /// </summary>
+        public Sys_UIFormDBModel Sys_UIFormDBModel
+        {
+            private set;
+            get;
+        }
+
+        /// <summary>
         /// 初始化DBModel
         /// </summary>
         private void InitDBModel()
         {
             ChapterDBModel = new ChapterDBModel();
+            Sys_UIFormDBModel = new Sys_UIFormDBModel();
         }
 
         /// <summary>
@@ -42,6 +52,7 @@ namespace Framework
         private void LoadDataTable()
         {
             ChapterDBModel.LoadData();
+            Sys_UIFormDBModel.LoadData();
 
             GameEntry.Event.CommonEvent.Dispatch(SystemEventId.LoadDataTableCompelete);
         }
@@ -49,7 +60,7 @@ namespace Framework
         public void Clear()
         {
             ChapterDBModel.Clear();
-
+            Sys_UIFormDBModel.Clear();
         }
     }
 }

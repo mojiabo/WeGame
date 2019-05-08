@@ -44,9 +44,16 @@ namespace Framework
         /// </summary>
         private Dictionary<byte, UIGroup> m_UIGroupDic;
 
+        public UIManager UIManager
+        {
+            private set;
+            get;
+        }
+
         protected override void OnAwake()
         {
             base.OnAwake();
+            UIManager = new UIManager();
             GameEntry.RegisterUpdateComponent(this);
 
             float m_StandardScreen = m_StandardWight / (float)m_StandardHight;
@@ -106,6 +113,17 @@ namespace Framework
             m_UICanvasScaler.matchWidthOrHeight = (m_CurrScreen>= m_StandardScreen)?1:0;
         }
         #endregion
+
+        /// <summary>
+        /// 打开一个窗体
+        /// </summary>
+        /// <param name="uIFromId">ID</param>
+        /// <param name="userData">用户数据</param>
+        public void OpenUIFrom(int uIFromId, object userData = null)
+        {
+
+            UIManager.OpenUIFrom(uIFromId, userData);
+        }
 
         public void OnUpdate()
         {

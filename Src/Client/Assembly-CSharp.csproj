@@ -63,6 +63,8 @@
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
     <Compile Include="Assets\Script\DataTable\Create\ChapterDBModel.cs" />
     <Compile Include="Assets\Script\DataTable\Create\ChapterEntity.cs" />
+    <Compile Include="Assets\Script\DataTable\Create\Sys_UIFormDBModel.cs" />
+    <Compile Include="Assets\Script\DataTable\Create\Sys_UIFormEntity.cs" />
     <Compile Include="Assets\Script\DebugApp.cs" />
     <Compile Include="Assets\Script\FingerEvent.cs" />
     <Compile Include="Assets\Script\Framework\Component\AutoLoadTexture.cs" />
@@ -156,6 +158,7 @@
     <Compile Include="Assets\Script\Framework\Managers\Socket\SocketUdpRoutine.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Time\TimeAction.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Time\TimeManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\UI\UIFromBase.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIGroup.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIManager.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestAsync.cs" />
@@ -173,6 +176,8 @@
     <Compile Include="Assets\Script\Framework\Utils\SecurityUtil.cs" />
     <Compile Include="Assets\Script\Framework\Utils\StringUtil.cs" />
     <Compile Include="Assets\Script\Framework\Utils\ZlibHelper.cs" />
+    <Compile Include="Assets\Script\UI\UIFrom\UIFromId.cs" />
+    <Compile Include="Assets\Script\UI\UIFrom\UITaskFrom.cs" />
     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />

@@ -12,12 +12,12 @@ namespace Framework
     {
         protected List<P> m_List;
 
-        protected Dictionary<int, P> m_dic;
+        protected Dictionary<int, P> m_Dic;
 
         public DataTableDBModelBase()
         {
             m_List = new List<P>();
-            m_dic = new Dictionary<int, P>();
+            m_Dic = new Dictionary<int, P>();
         }
         #region 需要子类实现的属性和方法
         /// <summary>
@@ -61,9 +61,9 @@ namespace Framework
         /// <returns></returns>
         public P Get(int id)
         {
-            if (m_dic.ContainsKey(id))
+            if (m_Dic.ContainsKey(id))
             {
-                return m_dic[id];
+                return m_Dic[id];
             }
             return null;
         }
@@ -71,7 +71,7 @@ namespace Framework
         public void Clear()
         {
             m_List.Clear();
-            m_dic.Clear();
+            m_Dic.Clear();
         }
     }
 }

@@ -28,6 +28,7 @@ namespace Framework
         {
             Debug.Log("HasEror"+args.HasError);
             Debug.Log("Value"+args.Value);
+            GameEntry.Procedure.ChangeState(ProcedureState.CheckVersion);
         }
 
         public override void OnUpdate()
