@@ -26,6 +26,10 @@ namespace Framework
         [SerializeField]
         private Canvas m_UIRootCanvas;
 
+        [Header("UI分组")]
+        [SerializeField]
+        private UIGroup[] m_UIGroups;
+
         /// <summary>
         /// 标准分辨率比值
         /// </summary>
@@ -34,33 +38,44 @@ namespace Framework
         /// 当前分辨率比值
         /// </summary>
         private float m_CurrScreen;
-
-        [Header("UI分组")]
-        [SerializeField]
-        private UIGroup[] m_UIGroups;
-
         /// <summary>
         /// UI分组字典
         /// </summary>
         private Dictionary<byte, UIGroup> m_UIGroupDic;
 
-        public UIManager UIManager
-        {
-            private set;
-            get;
-        }
+        private UIManager m_UIManager;
+        private UILayer m_UILayer;
+        private UIPool m_UIPool;
+
+        [Header("释放间隔")]
+        [SerializeField]
+        private float m_ClearInterval = 120;
+
+        /// <summary>
+        /// 下次运行时间
+        /// </summary>
+        private float m_NextRunTime=0;
+
+        /// <summary>
+        /// UI回池过期时间
+        /// </summary>
+        public float UIExpire=120;
+
+        /// <summary>
+        /// 对象池中最大数量
+        /// </summary>
+        public int UIPoolMaxCount=5;
 
         protected override void OnAwake()
         {
             base.OnAwake();
-            UIManager = new UIManager();
+
             GameEntry.RegisterUpdateComponent(this);
 
             float m_StandardScreen = m_StandardWight / (float)m_StandardHight;
             float m_CurrScreen = Screen.width / (float)Screen.height;
             NormalFromCanvasScaler();
             m_UIGroupDic = new Dictionary<byte, UIGroup>();
-
             int len = m_UIGroups.Length;
 
             for (int i = 0; i < len; i++)
@@ -68,6 +83,11 @@ namespace Framework
                 UIGroup uIGroup = m_UIGroups[i];
                 m_UIGroupDic[uIGroup.Id] = uIGroup;
             }
+
+            m_UIManager = new UIManager();
+            m_UILayer = new UILayer();
+            m_UIPool = new UIPool();
+            m_UILayer.Init(m_UIGroups);
         }
 
         /// <summary>
@@ -80,6 +100,18 @@ namespace Framework
             UIGroup uIGroup = null;
             m_UIGroupDic.TryGetValue(id, out uIGroup);
             return uIGroup;
+        }
+
+
+        /// <summary>
+        /// 设置层级
+        /// </summary>
+        /// <param name="fromBase"></param>
+        /// <param name="isAdd"></param>
+        public void SetSortOrder(UIFromBase fromBase, bool isAdd)
+        {
+            m_UILayer.SetSortOrder(fromBase,isAdd);
+       
         }
 
         #region UI适配
@@ -121,13 +153,45 @@ namespace Framework
         /// <param name="userData">用户数据</param>
         public void OpenUIFrom(int uIFromId, object userData = null)
         {
+            m_UIPool.CheackOpenUI();
+            m_UIManager.OpenUIFrom(uIFromId, userData);
+        }
+        /// <summary>
+        /// 关闭UI窗口
+        /// </summary>
+        /// <param name="fromBase"></param>
+        internal void CloseUIFrom(UIFromBase fromBase)
+        {
+            m_UIManager.CloseUIFrom(fromBase);
+        }
 
-            UIManager.OpenUIFrom(uIFromId, userData);
+        /// <summary>
+        /// UI对象池中获取对象
+        /// </summary>
+        /// <param name="uiFromId"></param>
+        /// <returns></returns>
+        internal UIFromBase Dequeue(int uiFromId)
+        {
+           return m_UIPool.Dequeue(uiFromId);
+        }
+
+        /// <summary>
+        /// UI回池
+        /// </summary>
+        /// <param name="uIFrom"></param>
+        internal void Enqueue(UIFromBase uIFrom)
+        {
+            m_UIPool.Enqueue(uIFrom);
         }
 
         public void OnUpdate()
         {
-           
+            if (Time.time>m_NextRunTime+m_ClearInterval)
+            {
+                m_NextRunTime = Time.time;
+
+                m_UIPool.CheckClear();
+            }
         }
         public override void Shutdown()
         {

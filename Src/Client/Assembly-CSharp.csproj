@@ -160,7 +160,9 @@
     <Compile Include="Assets\Script\Framework\Managers\Time\TimeManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIFromBase.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIGroup.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\UI\UILayer.cs" />
     <Compile Include="Assets\Script\Framework\Managers\UI\UIManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\UI\UIPool.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestAsync.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestEvent.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestPool.cs" />
