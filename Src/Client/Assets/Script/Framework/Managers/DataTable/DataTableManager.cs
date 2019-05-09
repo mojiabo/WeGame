@@ -28,12 +28,21 @@ namespace Framework
             private set;
             get;
         }
+        /// <summary>
+        /// 本地化表
+        /// </summary>
+        public LocalizationDBModel LocalizationDBModel
+        {
+            private set;
+            get;
+        }
 
         /// <summary>
         /// 初始化DBModel
         /// </summary>
         private void InitDBModel()
         {
+            LocalizationDBModel = new LocalizationDBModel();
             ChapterDBModel = new ChapterDBModel();
             Sys_UIFormDBModel = new Sys_UIFormDBModel();
         }

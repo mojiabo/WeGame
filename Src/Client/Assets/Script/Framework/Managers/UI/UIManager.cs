@@ -40,7 +40,21 @@ namespace Framework
 
             if (fromBase==null)
             {
-                string path = string.Format("Assets/Download/UI/UIPrefab/{0}.prefab", entity.AssetPath_Chinese);
+                string assetPath = string.Empty;
+
+                switch (GameEntry.Localization.CurrLanguage)
+                {
+                    case Language.Chinese:
+                        assetPath = entity.AssetPath_Chinese;
+                        break;
+                    case Language.English:
+                        assetPath = entity.AssetPath_English;
+                        break;
+                    default:
+                        break;
+                }
+
+                string path = string.Format("Assets/Download/UI/UIPrefab/{0}.prefab", assetPath);
                 //加载镜像
                 Object obj = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>(path);
                 GameObject uiObj = Object.Instantiate(obj) as GameObject;

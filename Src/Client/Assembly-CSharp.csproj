@@ -132,6 +132,7 @@
     <Compile Include="Assets\Script\Framework\Managers\Http\HttpCallBackArgs.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Http\HttpManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Http\HttpRoutine.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Localization\LocalizationDBModel.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Localization\LocalizationManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\ManagerBase.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Pool\ClassObjectPool.cs" />

@@ -1,10 +1,63 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 namespace Framework
 {
+    public enum Language
+    {
+        Chinese=0,
+        English=1,
+    }
+
     public class LocalizationComponent : BaseComponent
     {
+        /// <summary>
+        /// 当前语言要和表的字段一致
+        /// </summary>
+        public Language CurrLanguage
+        {
+            get;
+            private set;
+        }
+
+        private LocalizationManager m_LocalizationManager;
+
+        protected override void OnAwake()
+        {
+            base.OnAwake();
+            m_LocalizationManager = new LocalizationManager();
+            Init();
+        }
+
+        private void Init()
+        {
+            switch (Application.systemLanguage)
+            {
+                default:
+                case SystemLanguage.ChineseSimplified:
+                case SystemLanguage.ChineseTraditional:
+                case SystemLanguage.Chinese:
+                    CurrLanguage = Language.Chinese;
+                    break;
+                case SystemLanguage.English:
+                    CurrLanguage = Language.English;
+                    break;
+            }
+
+        }
+
+        /// <summary>
+        /// 获取本地化内容
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
+        public string GetString(string key, object[] args)
+        {
+           return m_LocalizationManager.GetString(key, args);
+        }
+
 
         public override void Shutdown()
         {
