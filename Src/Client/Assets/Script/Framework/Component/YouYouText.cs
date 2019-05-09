@@ -14,10 +14,10 @@ namespace Framework
         protected override void Start()
         {
             base.Start();
-            //if (GameEntry.Localization != null)
-            //{
-            //    text = GameEntry.Localization.GetString(m_Localization);
-            //}
+            if (GameEntry.Localization != null)
+            {
+                text = GameEntry.Localization.GetString(m_Localization);
+            }
         }
     }
 }

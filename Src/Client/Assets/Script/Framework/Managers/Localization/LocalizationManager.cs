@@ -11,7 +11,7 @@ namespace Framework
         /// <param name="key"></param>
         /// <param name="args"></param>
         /// <returns></returns>
-        public string GetString(string key,object[] args)
+        public string GetString(string key,params object[] args)
         {
             string value = null;
 

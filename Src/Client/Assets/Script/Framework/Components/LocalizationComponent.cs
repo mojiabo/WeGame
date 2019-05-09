@@ -12,13 +12,15 @@ namespace Framework
 
     public class LocalizationComponent : BaseComponent
     {
+        [SerializeField]
+        private Language m_CurrLanguage;
         /// <summary>
         /// 当前语言要和表的字段一致
         /// </summary>
         public Language CurrLanguage
         {
-            get;
-            private set;
+            get { return m_CurrLanguage; }
+         
         }
 
         private LocalizationManager m_LocalizationManager;
@@ -27,7 +29,10 @@ namespace Framework
         {
             base.OnAwake();
             m_LocalizationManager = new LocalizationManager();
-            Init();
+#if !UNITY_EDITOR
+              Init();
+#endif
+
         }
 
         private void Init()
@@ -38,13 +43,12 @@ namespace Framework
                 case SystemLanguage.ChineseSimplified:
                 case SystemLanguage.ChineseTraditional:
                 case SystemLanguage.Chinese:
-                    CurrLanguage = Language.Chinese;
+                    m_CurrLanguage = Language.Chinese;
                     break;
                 case SystemLanguage.English:
-                    CurrLanguage = Language.English;
+                    m_CurrLanguage = Language.English;
                     break;
             }
-
         }
 
         /// <summary>
@@ -53,7 +57,7 @@ namespace Framework
         /// <param name="key"></param>
         /// <param name="args"></param>
         /// <returns></returns>
-        public string GetString(string key, object[] args)
+        public string GetString(string key, params object[] args)
         {
            return m_LocalizationManager.GetString(key, args);
         }

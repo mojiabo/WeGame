@@ -70,7 +70,10 @@
     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
     <Compile Include="Assets\Editor\ScriptCreatInit.cs" />
     <Compile Include="Assets\Editor\SettingWindow.cs" />
+    <Compile Include="Assets\Script\Framework\Editor\LocalizationComponentInspector.cs" />
     <Compile Include="Assets\Script\Framework\Editor\PoolComponentInspector.cs" />
+    <Compile Include="Assets\Script\Framework\Editor\YouYouImageInspector.cs" />
+    <Compile Include="Assets\Script\Framework\Editor\YouYouTextInspector.cs" />
     <Compile Include="Assets\XLua\Src\Editor\Generator.cs" />
     <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
     <Compile Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
