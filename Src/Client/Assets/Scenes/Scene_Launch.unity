@@ -1554,7 +1554,22 @@ MonoBehaviour:
   UICamera: {fileID: 1176297855}
   m_UICanvasScaler: {fileID: 1563825395}
   m_UIRootCanvas: {fileID: 1563825396}
-  m_UIGroups: []
+  m_UIGroups:
+  - Id: 0
+    BaseOrder: 0
+    Group: {fileID: 416762796}
+  - Id: 0
+    BaseOrder: 0
+    Group: {fileID: 992421194}
+  - Id: 0
+    BaseOrder: 0
+    Group: {fileID: 1763162058}
+  - Id: 0
+    BaseOrder: 0
+    Group: {fileID: 1218551978}
+  m_ClearInterval: 120
+  UIExpire: 120
+  UIPoolMaxCount: 5
 --- !u!1 &2095727935
 GameObject:
   m_ObjectHideFlags: 0

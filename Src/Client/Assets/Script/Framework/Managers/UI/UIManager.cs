@@ -5,6 +5,16 @@ namespace Framework
 {
     public class UIManager : ManagerBase
     {
+
+        /// <summary>
+        /// 已经打开的ui列表
+        /// </summary>
+        private LinkedList<UIFromBase> m_OpenUIFromList;
+        public UIManager()
+        {
+            m_OpenUIFromList = new LinkedList<UIFromBase>();
+
+        }
         /// <summary>
         /// 打开一个窗体
         /// </summary>
@@ -12,6 +22,11 @@ namespace Framework
         /// <param name="userData">用户数据</param>
         internal void OpenUIFrom(int uIFromId,object userData=null)
         {
+            if (isExists(uIFromId))
+            {
+                return;
+            }
+
             Sys_UIFormEntity entity = GameEntry.DataTable.DataTableManager.Sys_UIFormDBModel.Get(uIFromId);
 
             if (entity==null)
@@ -43,9 +58,22 @@ namespace Framework
                 fromBase.Open(userData);
             }
 
-           
+            m_OpenUIFromList.AddLast(fromBase);
 #endif
 
+        }
+
+        internal bool isExists(int uiFromId)
+        {
+            for (LinkedListNode<UIFromBase>curr= m_OpenUIFromList.First;curr!=null;curr=curr.Next)
+            {
+                if (curr.Value.UIFromId==uiFromId)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         /// <summary>
@@ -54,7 +82,24 @@ namespace Framework
         /// <param name="fromBase"></param>
         internal void CloseUIFrom(UIFromBase fromBase)
         {
+            m_OpenUIFromList.Remove(fromBase);
             fromBase.ToClose();
+        }
+
+        /// <summary>
+        /// 根据UIFromId关闭UI窗口
+        /// </summary>
+        /// <param name="fromBase"></param>
+        internal void CloseUIFrom(int uiFromId)
+        {
+            for (LinkedListNode<UIFromBase> curr = m_OpenUIFromList.First; curr != null; curr = curr.Next)
+            {
+                if (curr.Value.UIFromId == uiFromId)
+                {
+                    CloseUIFrom(curr.Value);
+                    break;
+                }
+            }
         }
     }
 }
