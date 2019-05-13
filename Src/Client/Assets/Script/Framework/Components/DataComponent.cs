@@ -8,7 +8,7 @@ namespace Framework
         /// <summary>
         /// 临时缓存数据
         /// </summary>
-        public CacheData CacheData
+        public CacheDataManager CacheData
         {
             private set;
             get;
@@ -16,7 +16,7 @@ namespace Framework
         /// <summary>
         /// 用户缓存数据
         /// </summary>
-        public UserData UserData
+        public UserDataManager UserDataManager
         {
             private set;
             get;
@@ -24,7 +24,7 @@ namespace Framework
         /// <summary>
         /// 系统缓存数据
         /// </summary>
-        public SystemData SystemData
+        public SystemDataManager SystemDataManager
         {
             private set;
             get;
@@ -33,7 +33,7 @@ namespace Framework
         /// <summary>
         /// 关卡缓存数据
         /// </summary>
-        public PVEMapData PVEMapData
+        public PVEMapDataManager PVEMapDataManager
         {
             private set;
             get;
@@ -42,10 +42,10 @@ namespace Framework
         protected override void OnAwake()
         {
             base.OnAwake();
-            CacheData = new CacheData();
-            UserData = new UserData();
-            SystemData = new SystemData();
-            PVEMapData = new PVEMapData();
+            CacheData = new CacheDataManager();
+            UserDataManager = new UserDataManager();
+            SystemDataManager = new SystemDataManager();
+            PVEMapDataManager = new PVEMapDataManager();
         }
 
         protected override void OnStart()
@@ -56,9 +56,9 @@ namespace Framework
         public override void Shutdown()
         {
             CacheData.Dispose();
-            UserData.Dispose();
-            SystemData.Dispose();
-            PVEMapData.Dispose();
+            UserDataManager.Dispose();
+            SystemDataManager.Dispose();
+            PVEMapDataManager.Dispose();
         }
     }
 }

@@ -9,10 +9,10 @@ namespace Framework
         /// <summary>
         /// 已经打开的ui列表
         /// </summary>
-        private LinkedList<UIFromBase> m_OpenUIFromList;
+        private LinkedList<UIFormBase> m_OpenUIFormList;
         public UIManager()
         {
-            m_OpenUIFromList = new LinkedList<UIFromBase>();
+            m_OpenUIFormList = new LinkedList<UIFormBase>();
 
         }
         /// <summary>
@@ -20,7 +20,7 @@ namespace Framework
         /// </summary>
         /// <param name="uIFromId">ID</param>
         /// <param name="userData">用户数据</param>
-        internal void OpenUIFrom(int uIFromId,object userData=null)
+        internal void OpenUIForm(int uIFromId,object userData=null)
         {
             if (isExists(uIFromId))
             {
@@ -36,9 +36,9 @@ namespace Framework
             }
 #if DISABLE_ASSETBUNDLE && UNITY_EDITOR
 
-            UIFromBase fromBase = GameEntry.UI.Dequeue(uIFromId); //以后去对象池取
+            UIFormBase formBase = GameEntry.UI.Dequeue(uIFromId); //以后去对象池取
 
-            if (fromBase==null)
+            if (formBase==null)
             {
                 string assetPath = string.Empty;
 
@@ -63,25 +63,25 @@ namespace Framework
                 uiObj.transform.localPosition = Vector3.zero;
                 uiObj.transform.localScale = Vector3.one;
 
-                fromBase = uiObj.transform.GetComponent<UIFromBase>();
-                fromBase.Init(entity.Id, entity.UIGroupId, entity.DisableUILayer == 1, entity.IsLock == 1, userData);
+                formBase = uiObj.transform.GetComponent<UIFormBase>();
+                formBase.Init(entity.Id, entity.UIGroupId, entity.DisableUILayer == 1, entity.IsLock == 1, userData);
             }
             else
             {
-                fromBase.gameObject.SetActive(true);
-                fromBase.Open(userData);
+                formBase.gameObject.SetActive(true);
+                formBase.Open(userData);
             }
 
-            m_OpenUIFromList.AddLast(fromBase);
+            m_OpenUIFormList.AddLast(formBase);
 #endif
 
         }
 
         internal bool isExists(int uiFromId)
         {
-            for (LinkedListNode<UIFromBase>curr= m_OpenUIFromList.First;curr!=null;curr=curr.Next)
+            for (LinkedListNode<UIFormBase>curr= m_OpenUIFormList.First;curr!=null;curr=curr.Next)
             {
-                if (curr.Value.UIFromId==uiFromId)
+                if (curr.Value.UIFormId==uiFromId)
                 {
                     return true;
                 }
@@ -93,24 +93,24 @@ namespace Framework
         /// <summary>
         /// 关闭UI窗口
         /// </summary>
-        /// <param name="fromBase"></param>
-        internal void CloseUIFrom(UIFromBase fromBase)
+        /// <param name="formBase"></param>
+        internal void CloseUIForm(UIFormBase formBase)
         {
-            m_OpenUIFromList.Remove(fromBase);
-            fromBase.ToClose();
+            m_OpenUIFormList.Remove(formBase);
+            formBase.ToClose();
         }
 
         /// <summary>
         /// 根据UIFromId关闭UI窗口
         /// </summary>
         /// <param name="fromBase"></param>
-        internal void CloseUIFrom(int uiFromId)
+        internal void CloseUIForm(int uiFromId)
         {
-            for (LinkedListNode<UIFromBase> curr = m_OpenUIFromList.First; curr != null; curr = curr.Next)
+            for (LinkedListNode<UIFormBase> curr = m_OpenUIFormList.First; curr != null; curr = curr.Next)
             {
-                if (curr.Value.UIFromId == uiFromId)
+                if (curr.Value.UIFormId == uiFromId)
                 {
-                    CloseUIFrom(curr.Value);
+                    CloseUIForm(curr.Value);
                     break;
                 }
             }

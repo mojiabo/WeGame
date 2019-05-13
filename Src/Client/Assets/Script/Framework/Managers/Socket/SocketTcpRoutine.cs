@@ -38,10 +38,21 @@ namespace Framework
 		/// 接收数据包的缓存数据流
 		/// </summary>
 		private MMO_MemoryStream m_ReceiveMS = new MMO_MemoryStream();
-		/// <summary>
-		/// 接受消息的队列
-		/// </summary>
-		private Queue<byte[]> m_ReceiveQueue = new Queue<byte[]>();
+        /// <summary>
+        /// 接收ms
+        /// </summary>
+        private MMO_MemoryStream m_SocketReceiveMS=new MMO_MemoryStream();
+
+        /// <summary>
+        /// 发送ms
+        /// </summary>
+        private MMO_MemoryStream m_SocketSendMS=new MMO_MemoryStream();
+
+
+        /// <summary>
+        /// 接受消息的队列
+        /// </summary>
+        private Queue<byte[]> m_ReceiveQueue = new Queue<byte[]>();
 
 		private int m_ReceiveCount = 0;
 		/// <summary>
@@ -88,15 +99,18 @@ namespace Framework
 
 							bool isCompress = false;
 
-							int crc = 0;
-							using (MMO_MemoryStream ms1 = new MMO_MemoryStream(buffer))
-							{
-								isCompress = ms1.ReadBool();
+							ushort crc = 0;
 
-								crc = ms1.ReadUShort();
+                            MMO_MemoryStream ms1 = m_SocketReceiveMS;
+                            ms1.SetLength(0);
+                            ms1.Write(buffer,0,buffer.Length);
+                            ms1.Position = 0;
 
-								ms1.Read(newBuffer, 0, newBuffer.Length);
-							}
+                            isCompress = ms1.ReadBool();
+
+                            crc = ms1.ReadUShort();
+
+                            ms1.Read(newBuffer, 0, newBuffer.Length);
 
 							int newCrc = Crc16.CalculateCrc16(newBuffer);
 							//传过来的crc是否=新包的crc
@@ -113,13 +127,17 @@ namespace Framework
 
 								ushort protoCode = 0;
 								byte[] protoConent = new byte[buffer.Length - 2];
-								using (MMO_MemoryStream ms = new MMO_MemoryStream(newBuffer))
-								{
-									protoCode = ms.ReadUShort();
-									ms.Read(protoConent, 0, protoConent.Length);
 
-									GameEntry.Event.SocketEvent.Dispatch(protoCode, protoConent);
-								}
+
+                                MMO_MemoryStream ms2 = m_SocketReceiveMS;
+                                ms2.SetLength(0);
+                                ms2.Write(buffer, 0, buffer.Length);
+                                ms2.Position = 0;
+
+                                protoCode = ms2.ReadUShort();
+                                ms2.Read(protoConent, 0, protoConent.Length);
+
+                                GameEntry.Event.SocketEvent.Dispatch(protoCode, protoConent);
 
 							}
 							else
@@ -187,7 +205,7 @@ namespace Framework
 			{
 				if (m_SendQueue.Count > 0||m_isUnDealBytes)
 				{
-					MMO_MemoryStream ms = GameEntry.Socket.CommonMemoryStream;
+					MMO_MemoryStream ms = m_SocketSendMS;
 					ms.SetLength(0);
 
 					if (m_isUnDealBytes) //先处理未处理的包
@@ -245,7 +263,7 @@ namespace Framework
 			//crc校验
 			ushort crc = Crc16.CalculateCrc16(data);
 
-				MMO_MemoryStream ms = GameEntry.Socket.CommonMemoryStream;
+				MMO_MemoryStream ms = m_SocketSendMS;
 				ms.SetLength(0);
 				ms.WriteUShort((ushort)(data.Length + 3));
 				ms.WriteBool(isCompress);

@@ -7,11 +7,31 @@ namespace Framework
     {
         private SocketManager m_SocketManager;
 
-        public MMO_MemoryStream CommonMemoryStream
+        //public MMO_MemoryStream CommonMemoryStream
+        //{
+        //    private set;
+        //    get;
+        //}
+
+        /// <summary>
+        /// 接收ms
+        /// </summary>
+        public MMO_MemoryStream SocketReceiveMS
         {
             private set;
             get;
         }
+
+        /// <summary>
+        /// 发送ms
+        /// </summary>
+        public MMO_MemoryStream SocketSendMS
+        {
+            private set;
+            get;
+        }
+
+
         /// <summary>
         /// 每帧最大发送包数量
         /// </summary>
@@ -34,13 +54,17 @@ namespace Framework
             base.OnAwake();
             GameEntry.RegisterUpdateComponent(this);
             m_SocketManager = new SocketManager();
-            CommonMemoryStream = new MMO_MemoryStream();
+            SocketReceiveMS = new MMO_MemoryStream();
+            SocketSendMS = new MMO_MemoryStream();
+          //  CommonMemoryStream = new MMO_MemoryStream();
         }
         protected override void OnStart()
         {
             base.OnStart();
 
             m_MainSocket = CreateSocketTcpRoutine();
+
+            SocketProtoListener.AddProtoListener();
         }
         /// <summary>
         /// 注册SocketTcp访问器
@@ -76,10 +100,15 @@ namespace Framework
         public override void Shutdown()
         {
             GameEntry.RemoveUpdateComponent(this);
+            SocketProtoListener.RemoveProtoListener();
             GameEntry.Pool.EnqueueClassObject(m_MainSocket);
             m_SocketManager.Dispose();
-            CommonMemoryStream.Dispose();
-            CommonMemoryStream.Close();
+            SocketReceiveMS.Dispose();
+            SocketReceiveMS.Close();
+            SocketSendMS.Dispose();
+            SocketSendMS.Close();
+            // CommonMemoryStream.Dispose();
+            // CommonMemoryStream.Close();
         }
 
         //========================================

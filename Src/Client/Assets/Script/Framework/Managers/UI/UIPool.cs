@@ -9,11 +9,11 @@ namespace Framework
         /// <summary>
         /// 对象池中的列表
         /// </summary>
-        private LinkedList<UIFromBase> m_UIFromList;
+        private LinkedList<UIFormBase> m_UIFromList;
 
         public UIPool()
         {
-            m_UIFromList = new LinkedList<UIFromBase>();
+            m_UIFromList = new LinkedList<UIFormBase>();
         }
 
         /// <summary>
@@ -21,11 +21,11 @@ namespace Framework
         /// </summary>
         /// <param name="uiFromId"></param>
         /// <returns></returns>
-        internal UIFromBase Dequeue(int uiFromId)
+        internal UIFormBase Dequeue(int uiFromId)
         {
-            for (LinkedListNode<UIFromBase>curr= m_UIFromList.First; curr!=null; curr=curr.Next)
+            for (LinkedListNode<UIFormBase>curr= m_UIFromList.First; curr!=null; curr=curr.Next)
             {
-                if (curr.Value.UIFromId==uiFromId)
+                if (curr.Value.UIFormId==uiFromId)
                 {
                     m_UIFromList.Remove(curr.Value);
                     return curr.Value;
@@ -38,7 +38,7 @@ namespace Framework
         /// 回池
         /// </summary>
         /// <param name="uIFrom"></param>
-        internal void Enqueue(UIFromBase uIFrom)
+        internal void Enqueue(UIFormBase uIFrom)
         {
             uIFrom.gameObject.SetActive(false);
             m_UIFromList.AddLast(uIFrom);
@@ -49,13 +49,13 @@ namespace Framework
         /// </summary>
         internal void CheckClear()
         {
-            for (LinkedListNode<UIFromBase> curr = m_UIFromList.First; curr != null;)
+            for (LinkedListNode<UIFormBase> curr = m_UIFromList.First; curr != null;)
             {
                 if (!curr.Value.IsLock&&Time.time>(curr.Value.CloseTime+GameEntry.UI.UIExpire))
                 {
                     Object.Destroy(curr.Value.gameObject);
 
-                    LinkedListNode<UIFromBase> next = curr.Next;
+                    LinkedListNode<UIFormBase> next = curr.Next;
                     m_UIFromList.Remove(curr);
                     curr = next;
                 }
@@ -73,7 +73,7 @@ namespace Framework
                 return;
             }
 
-            for (LinkedListNode<UIFromBase> curr = m_UIFromList.First; curr != null;)
+            for (LinkedListNode<UIFormBase> curr = m_UIFromList.First; curr != null;)
             {
                 if (m_UIFromList.Count <= GameEntry.UI.UIPoolMaxCount)
                 {
@@ -84,7 +84,7 @@ namespace Framework
                 {
                     Object.Destroy(curr.Value.gameObject);
 
-                    LinkedListNode<UIFromBase> next = curr.Next;
+                    LinkedListNode<UIFormBase> next = curr.Next;
                     m_UIFromList.Remove(curr);
                     curr = next;
                 }

@@ -37,7 +37,7 @@ public class AssetBundleWindow: EditorWindow
     private int selectBuildTargetIndex = -1;
     private Vector2 pos;
 
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE_WIN||UNITY_STANDALONE_OSX
     private BuildTarget target = BuildTarget.StandaloneWindows;
     private int buildTargetIndex = 0;
 #elif UNITY_ANDROID

@@ -71,7 +71,7 @@ namespace Framework
 					dic["deviceUniqueIdentifier"] = DeviceUtil.DeviceIdentifier;
 					//客户端标识符
 					dic["deviceModel"] = DeviceUtil.DeviceModel;
-					long t = GameEntry.Data.SystemData.CurrServerTime;
+					long t = GameEntry.Data.SystemDataManager.CurrServerTime;
 					//签名
 					dic["sign"] = EncryptUtil.Md5(string.Format("{0}:{1}", t, DeviceUtil.DeviceIdentifier));
 					//时间戳

@@ -33,7 +33,7 @@ namespace Framework
         /// </summary>
         /// <param name="fromBase"></param>
         /// <param name="isAdd"></param>
-        internal void SetSortOrder(UIFromBase fromBase,bool isAdd)
+        internal void SetSortOrder(UIFormBase fromBase,bool isAdd)
         {
             if (isAdd)
             {

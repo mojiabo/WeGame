@@ -108,7 +108,7 @@ namespace Framework
         /// </summary>
         /// <param name="fromBase"></param>
         /// <param name="isAdd"></param>
-        public void SetSortOrder(UIFromBase fromBase, bool isAdd)
+        public void SetSortOrder(UIFormBase fromBase, bool isAdd)
         {
             m_UILayer.SetSortOrder(fromBase,isAdd);
        
@@ -154,15 +154,15 @@ namespace Framework
         public void OpenUIFrom(int uIFromId, object userData = null)
         {
             m_UIPool.CheackOpenUI();
-            m_UIManager.OpenUIFrom(uIFromId, userData);
+            m_UIManager.OpenUIForm(uIFromId, userData);
         }
         /// <summary>
         /// 关闭UI窗口
         /// </summary>
         /// <param name="fromBase"></param>
-        internal void CloseUIFrom(UIFromBase fromBase)
+        internal void CloseUIFrom(UIFormBase fromBase)
         {
-            m_UIManager.CloseUIFrom(fromBase);
+            m_UIManager.CloseUIForm(fromBase);
         }
 
         /// <summary>
@@ -170,7 +170,7 @@ namespace Framework
         /// </summary>
         /// <param name="uiFromId"></param>
         /// <returns></returns>
-        internal UIFromBase Dequeue(int uiFromId)
+        internal UIFormBase Dequeue(int uiFromId)
         {
            return m_UIPool.Dequeue(uiFromId);
         }
@@ -179,7 +179,7 @@ namespace Framework
         /// UI回池
         /// </summary>
         /// <param name="uIFrom"></param>
-        internal void Enqueue(UIFromBase uIFrom)
+        internal void Enqueue(UIFormBase uIFrom)
         {
             m_UIPool.Enqueue(uIFrom);
         }

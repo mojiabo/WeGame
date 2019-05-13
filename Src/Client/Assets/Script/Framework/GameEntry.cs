@@ -137,14 +137,23 @@ namespace Framework
 			get;
 			private set;
 		}
-		#endregion
 
-		#region 基础组件管理
+        /// <summary>
+        /// Lua组件
+        /// </summary>
+        public static LuaComponent Lua
+        {
+            get;
+            private set;
+        }
+        #endregion
 
-		/// <summary>
-		/// 基础组件列表
-		/// </summary>
-		private static readonly LinkedList<BaseComponent> m_BaseComponentList = new LinkedList<BaseComponent>();
+        #region 基础组件管理
+
+        /// <summary>
+        /// 基础组件列表
+        /// </summary>
+        private static readonly LinkedList<BaseComponent> m_BaseComponentList = new LinkedList<BaseComponent>();
 
 		#region 注册组件 RegisterBaseComponent
 		/// <summary>
@@ -217,7 +226,9 @@ namespace Framework
 			Socket = GetBaseComponent<SocketComponent>();
 			Time = GetBaseComponent<TimeComponent>();
 			UI = GetBaseComponent<UIComponent>();
-		}
+            Lua = GetBaseComponent<LuaComponent>();
+
+        }
 		#endregion
 
 		#endregion

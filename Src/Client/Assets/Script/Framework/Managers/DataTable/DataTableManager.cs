@@ -62,6 +62,7 @@ namespace Framework
         {
             ChapterDBModel.LoadData();
             Sys_UIFormDBModel.LoadData();
+            LocalizationDBModel.LoadData();
 
             GameEntry.Event.CommonEvent.Dispatch(SystemEventId.LoadDataTableCompelete);
         }
@@ -70,6 +71,7 @@ namespace Framework
         {
             ChapterDBModel.Clear();
             Sys_UIFormDBModel.Clear();
+            LocalizationDBModel.Clear();
         }
     }
 }
