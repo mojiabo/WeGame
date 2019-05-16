@@ -142,6 +142,7 @@
     <Compile Include="Assets\Script\BusinessScript\Data\Proto\System_GameServerConfigReturnProto.cs" />
     <Compile Include="Assets\Script\BusinessScript\Data\Proto\System_HeartbeatProto.cs" />
     <Compile Include="Assets\Script\BusinessScript\Data\Proto\System_HeartbeatReturnProto.cs" />
+    <Compile Include="Assets\Script\BusinessScript\Data\Proto\System_SendLocalTimeProto.cs" />
     <Compile Include="Assets\Script\BusinessScript\Data\Proto\Task_SearchTaskProto.cs" />
     <Compile Include="Assets\Script\BusinessScript\Data\Proto\Task_SearchTaskReturnProto.cs" />
     <Compile Include="Assets\Script\BusinessScript\Data\ProtoHandle\Backpack_GoodsChangeReturnHandler.cs" />
@@ -269,6 +270,7 @@
     <Compile Include="Assets\Script\Framework\Test\TestEvent.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestPool.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestProcedure.cs" />
+    <Compile Include="Assets\Script\Framework\Test\TestSocket.cs" />
     <Compile Include="Assets\Script\Framework\Test\TestTime.cs" />
     <Compile Include="Assets\Script\Framework\Utils\Crc16.cs" />
     <Compile Include="Assets\Script\Framework\Utils\DeviceUtil.cs" />
@@ -282,6 +284,7 @@
     <Compile Include="Assets\Script\Framework\Utils\ZlibHelper.cs" />
     <Compile Include="Assets\XLua\Gen\DelegatesGensBridge.cs" />
     <Compile Include="Assets\XLua\Gen\EnumWrap.cs" />
+    <Compile Include="Assets\XLua\Gen\FrameworkLuaComponentWrap.cs" />
     <Compile Include="Assets\XLua\Gen\FrameworkLuaFormWrap.cs" />
     <Compile Include="Assets\XLua\Gen\GameObjectUtilWrap.cs" />
     <Compile Include="Assets\XLua\Gen\GameUtilWrap.cs" />

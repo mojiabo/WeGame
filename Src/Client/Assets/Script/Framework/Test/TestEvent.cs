@@ -20,10 +20,10 @@ namespace Framework
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.B))
-            {
-                GameEntry.Event.CommonEvent.Dispatch(CommonEventId.RegComplete,123);
-            }
+            //if (Input.GetKeyDown(KeyCode.B))
+            //{
+            //    GameEntry.Event.CommonEvent.Dispatch(CommonEventId.RegComplete,123);
+            //}
         }
         private void OnDestroy()
         {

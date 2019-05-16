@@ -29,6 +29,8 @@ namespace XLua.CSObjectWrap
 				
 				translator.DelayWrapLoader(typeof(GameUtil), GameUtilWrap.__Register);
 				
+				translator.DelayWrapLoader(typeof(Framework.LuaComponent), FrameworkLuaComponentWrap.__Register);
+				
 				translator.DelayWrapLoader(typeof(object), SystemObjectWrap.__Register);
 				
 				translator.DelayWrapLoader(typeof(UnityEngine.Object), UnityEngineObjectWrap.__Register);

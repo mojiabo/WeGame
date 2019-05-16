@@ -1024,7 +1024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1176.95, y: 69.35}
+  m_AnchoredPosition: {x: -1176.95, y: 69.350006}
   m_SizeDelta: {x: 270, y: 80}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &544085787
@@ -1152,6 +1152,7 @@ GameObject:
   - component: {fileID: 656317081}
   - component: {fileID: 656317082}
   - component: {fileID: 656317083}
+  - component: {fileID: 656317084}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -1213,9 +1214,20 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 656317078}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6318a0890698c0840a81956eaff99aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &656317084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 656317078}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7218337922230348a40056d345508eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &668539525
@@ -2467,7 +2479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1292635837
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2808,8 +2820,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_WebAccountUrl: 
-  m_TestWebAccountUrl: 
-  m_IsTest: 0
+  m_TestWebAccountUrl: http://192.168.31.179:8090
+  m_IsTest: 1
 --- !u!1 &1461459947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +2903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d109a1411c23d499a6aca2df51a307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebugLogProto: 0
 --- !u!1 &1563825392
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,7 +3280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxSendCount: 5
-  MaxSendByteCount: 0
+  MaxSendByteCount: 1024
   MaxReveiceCount: 5
 --- !u!1 &1726298368
 GameObject:

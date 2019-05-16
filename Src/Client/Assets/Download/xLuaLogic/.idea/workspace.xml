@@ -2,242 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba43d93b-902d-498a-8fed-f748379d0995" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.vs/Client/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vs/Client/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/db.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/db.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vs/Client/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Chapter.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Chapter.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Equip.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Equip.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/GameLevel.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/GameLevel.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/GameLevelGrade.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/GameLevelGrade.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/GameLevelMonster.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/GameLevelMonster.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/GameLevelRegion.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/GameLevelRegion.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Item.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Item.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Job.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Job.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/JobLevel.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/JobLevel.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Language.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Language.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Material.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Material.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/NPC.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/NPC.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/RechargeShop.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/RechargeShop.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Shop.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Shop.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/ShopCategory.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/ShopCategory.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Skill.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Skill.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/SkillLevel.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/SkillLevel.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Sprite.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Sprite.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/Task.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/Task.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTable/WorldMap.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTable/WorldMap.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/UIPrefab/FormChinese/UI_Task.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/UIPrefab/FormChinese/UI_Task.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/CommonEventId.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Define.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Define.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/ProtoCodeDef.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CtrlMgr.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/EquipDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/EquipEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/ItemDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/ItemEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/JobLevelDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/JobLevelEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/LanguageDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/LanguageEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/MaterialDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/MaterialEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/RechargeShopDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/RechargeShopEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/ShopCategoryDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/ShopCategoryEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/ShopDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/ShopEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/TaskDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Create/TaskEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DBModelMgr.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/GoodsDBModel.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/GoodsEntity.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TaskDBModelExt.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameInit.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotfix/UIRoleEquipView.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuaTest.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMO_xLua.luaprj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Task/TaskCtrl.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Task/UI_TaskCtrl.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Task/TaskView.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Task/UI_TaskView.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Template/CtrlTemplate.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Template/ViewTemplate.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Backpack_GoodsAddProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Backpack_GoodsChangeReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Backpack_SearchProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Backpack_SearchReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_EnterProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_EnterReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_FailProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_FailReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_ResurgenceProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_ResurgenceReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_VictoryProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/GameLevel_VictoryReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_EquipPutProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_EquipPutReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_SearchEquipDetailProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_SearchEquipDetailReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_SellToSysProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_SellToSysReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_UseItemProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Goods_UseItemReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/ProtoCodeDef.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleData_GoldChangeReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleData_MondeyChangeReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleData_RechargeProductReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleData_RechargeReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleData_SkillReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_CreateRoleProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_CreateRoleReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_DeleteRoleProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_DeleteRoleReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_EnterGameProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_EnterGameReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_LogOnGameServerProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_LogOnGameServerReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_SelectRoleInfoProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/RoleOperation_SelectRoleInfoReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Shop_BuyProductProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Shop_BuyProductReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/System_GameServerConfigReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/System_SendLocalTimeProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/System_ServerTimeReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Task_SearchTaskProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/Task_SearchTaskReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_CurrRoleMoveProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_CurrRoleResurgenceProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_CurrRoleUpdateInfoProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_CurrRoleUseSkillProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_InitRoleProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleDieProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleEnterProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleLeaveProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleMoveProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleResurgenceProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleUpdateInfoProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_OtherRoleUseSkillProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_PosProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_RoleAlreadyEnterProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_RoleEnterProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proto/WorldMap_RoleEnterReturnProto.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Editor/AssetBundle/AssetBundleWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Editor/AssetBundle/AssetBundleWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Editor/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Editor/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editor/LuaGenConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Editor/LuaGenConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scenes/Scene_Launch.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Scene_Launch.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/DataTable/Create/ChapterDBModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/DataTable/Create/ChapterEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/DataTable/Create/Sys_UIFormDBModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/DataTable/Create/Sys_UIFormEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/DebugApp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/FingerEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Components/DataComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Components/DataComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Components/SocketComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Components/SocketComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Components/UIComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Components/UIComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Editor/LocalizationComponentInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Editor/LocalizationComponentInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Editor/YouYouImageInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Editor/YouYouImageInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Editor/YouYouTextInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Editor/YouYouTextInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/GameEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/GameEntry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Data/CacheData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Data/PVEMapData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Data/SystemData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Data/UserData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/DataTable/DataTableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/DataTable/DataTableManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Http/HttpRoutine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/Http/HttpRoutine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Socket/SocketTcpRoutine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/Socket/SocketTcpRoutine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UIFromBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UILayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UILayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UIPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/UI/UIPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/UI/UIFrom/UIFromId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Script/UI/UIFrom/UITaskFrom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/Materials/logo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/XLua_API.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/XLua增加删除第三方lua库.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/XLua复杂值类型（struct）gc优化指南.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/XLua性能分析工具.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/XLua教程.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/XLua的配置.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/custom_generate.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/features.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/hotfix.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/signature.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Doc/xLua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/01_Helloworld/Helloworld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/01_Helloworld/Helloworld.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/02_U3DScripting/LuaBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/02_U3DScripting/LuaTestScript.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/02_U3DScripting/U3DScripting.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/03_UIEvent/ButtonInteraction.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/03_UIEvent/UI.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/04_LuaObjectOrented/InvokeLua.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/04_LuaObjectOrented/InvokeLua.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/05_NoGc/NoGc.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/05_NoGc/NoGc.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/06_Coroutine/Coroutine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/06_Coroutine/Coroutine.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/06_Coroutine/Coroutine_Runner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/06_Coroutine/Resources/coruntine_test.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/06_Coroutine/Resources/cs_coroutine.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/AsyncTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/AsyncTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/MessageBox.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/Resources/AlertBox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/Resources/ConfirmBox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/07_AsyncTest/Resources/message_box.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/08_Hotfix/HotfixTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/08_Hotfix/HotfixTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/08_Hotfix/HotfixTest2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/08_Hotfix/HotfixTest2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/08_Hotfix/StatefullTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/09_GenericMethod/Foo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/09_GenericMethod/GenericMethod.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/09_GenericMethod/GenericMethodExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/Resources/signatured1.lua.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/Resources/signatured2.lua.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/Resources/signatured3.lua.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/SignatureLoaderTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/SignatureLoaderTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/otherfiles/key_ras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/otherfiles/key_ras.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/otherfiles/signatured1.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/otherfiles/signatured2.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/otherfiles/signatured3.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/signatured1.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/signatured2.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/10_SignatureLoader/signatured3.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Examples/ExampleGenConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/CSharpCallLua/CSCallLua.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/CSharpCallLua/CSCallLua.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/ByFile/ByFile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/ByFile/ByFile.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/ByString/ByString.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/ByString/ByString.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/Loader/CustomLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LoadLuaScript/Loader/CustomLoader.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LuaCallCSharp/LuaCallCs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../XLua/Tutorial/LuaCallCSharp/LuaCallCs.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Components/LuaComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Components/LuaComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Managers/Procedure/ProcedureLaunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Managers/Procedure/ProcedureLaunch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Test/TestEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Test/TestEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Script/Framework/Test/TestProcedure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Script/Framework/Test/TestProcedure.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../XLua/Gen/XLuaGenAutoRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../XLua/Gen/XLuaGenAutoRegister.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/09/09c51286ee728974787e17b332d5ce14" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/09/09c51286ee728974787e17b332d5ce14" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/6c/6cbcd19285a8ff0449562c00b2d9c908" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/6c/6cbcd19285a8ff0449562c00b2d9c908" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/89/8909becc68580cc439d5c15e4fad211f" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/89/8909becc68580cc439d5c15e4fad211f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/91/91e117270ab8ceb47973d12ed86c077e" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/91/91e117270ab8ceb47973d12ed86c077e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/9d/9d58887394318444eaa5cb7cafe7c289" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/9d/9d58887394318444eaa5cb7cafe7c289" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/a3/a3508c4cd8fabfa4689efccb3e6eea09" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/a3/a3508c4cd8fabfa4689efccb3e6eea09" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Library/metadata/40/40940203e88877146a2700725978fadb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Library/metadata/40/40940203e88877146a2700725978fadb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp-firstpass.dll" afterDir="false" />
@@ -247,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../obj/Debug/build.force" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -260,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameInit.bytes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="630">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -269,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataNode/Proto/Backpack_SearchProto.bytes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="540">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -288,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Backpack_GoodsChangeReturnHandler.bytes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -355,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1017" />
     <option name="y" value="183" />
     <option name="width" value="1281" />
@@ -369,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -403,7 +184,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,17 +225,18 @@
       <workItem from="1557725358552" duration="1598000" />
       <workItem from="1557727275707" duration="8816000" />
       <workItem from="1557741272934" duration="4590000" />
+      <workItem from="1557986865139" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15004000" />
+    <option name="totallyTimeSpent" value="15600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="1041" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="1041" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21226698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21467228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -573,25 +354,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Goods_SellToSysReturnHandler.bytes">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Common/json.bytes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11430" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Goods_UseItemReturnHandler.bytes">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/GameInit.bytes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Task_SearchTaskReturnHandler.bytes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Goods_EquipPutReturnHandler.bytes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Backpack_SearchReturnHandler.bytes">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/DataNode/Proto/Backpack_SearchProto.bytes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Backpack_GoodsChangeReturnHandler.bytes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -602,24 +387,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/json.bytes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11430" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Task_SearchTaskReturnHandler.bytes">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataNode/Proto/Backpack_SearchProto.bytes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Goods_UseItemReturnHandler.bytes">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameInit.bytes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Backpack_SearchReturnHandler.bytes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Goods_EquipPutReturnHandler.bytes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataNode/ProtoHandler/Goods_SellToSysReturnHandler.bytes">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DataNode/Proto/Backpack_GoodsChangeReturnProto.bytes">
       <provider selected="true" editor-type-id="text-editor">

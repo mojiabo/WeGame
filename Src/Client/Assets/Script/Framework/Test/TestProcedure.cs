@@ -26,11 +26,11 @@ public class TestProcedure : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            GameEntry.Procedure.ChangeState(ProcedureState.PreLoad);
-            Debug.Log(GameEntry.Procedure.CurrProcedure);
-        }
+        //if (Input.GetKeyDown(KeyCode.A))
+        //{
+        //    GameEntry.Procedure.ChangeState(ProcedureState.PreLoad);
+        //    Debug.Log(GameEntry.Procedure.CurrProcedure);
+        //}
 
         //if (Input.GetKeyDown(KeyCode.A))
         //{

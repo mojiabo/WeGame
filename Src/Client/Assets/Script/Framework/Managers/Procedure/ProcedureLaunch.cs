@@ -16,12 +16,12 @@ namespace Framework
 
             dic.Clear();
             dic["ChannelId"] = 0;
-
+            dic["InnerVersion"] = 1001;
             GameEntry.Http.SendData(url,OnWebAccountInit,true,dic);
         }
 
         /// <summary>
-        /// 
+        /// web回调
         /// </summary>
         /// <param name="args"></param>
         private void OnWebAccountInit(HttpCallBackArgs args)

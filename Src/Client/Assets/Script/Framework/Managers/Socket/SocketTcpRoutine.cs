@@ -67,6 +67,8 @@ namespace Framework
 
 		private byte[] m_UnDealBytes = null;
 
+        private bool m_IsConnectedOk;
+
 		#endregion
 		public Action OnConectOk;
 		public void DisConnected()
@@ -74,13 +76,22 @@ namespace Framework
 			if (m_Client != null && m_Client.Connected)
 
 			{
-				m_Client.Shutdown(SocketShutdown.Both);
+                m_IsConnectedOk = false;
+
+                m_Client.Shutdown(SocketShutdown.Both);
 				m_Client.Close();
 				GameEntry.Socket.RemoveSocketTcpRoutine(this);
 			}
 		}
 		internal void OnUpdate()
 		{
+            if (m_IsConnectedOk)
+            {
+                if (OnConectOk != null)
+                {
+                    OnConectOk();
+                }
+            }       
 			#region 接收数据
 			while (true)
 			{
@@ -155,8 +166,11 @@ namespace Framework
 					break;
 				}
 			}
-			#endregion
-		}
+            #endregion
+
+            CheckSendQueue();
+
+        }
 
 		#region Connect连接到服务器
 		/// <summary>
@@ -176,11 +190,10 @@ namespace Framework
 				Debug.Log("连接成功");
 				GameEntry.Socket.RegisterSocketTcpRoutine(this);
 				ReceiveNsg();
-				if (OnConectOk != null)
-				{
-					OnConectOk();
-				}
-			}
+                m_IsConnectedOk = true;
+
+
+            }
 			catch (Exception ex)
 			{
 			   

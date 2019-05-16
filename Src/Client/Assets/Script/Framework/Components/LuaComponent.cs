@@ -67,8 +67,9 @@ namespace Framework
         protected override void OnStart()
         {
             base.OnStart();
-            m_LuaManager.Init();
             LoadDaTableMS = new MMO_MemoryStream();
+            m_LuaManager.Init();
+
         }
     }
 }
