@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2792374208
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 989126848f5307486dfadead745c2dbf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Fat/No_Weapon/Dead.anim
+Dependencies: []

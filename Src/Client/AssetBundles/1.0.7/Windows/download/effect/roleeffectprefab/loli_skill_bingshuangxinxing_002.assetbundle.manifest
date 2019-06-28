@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 421202648
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 44f6bfa1a067dcf600c5fa9a88ebe3ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8809a9c3aece631d7628bd548ae3934f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/loli_skill_bingshuangxinxing_002.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_633.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_083.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_061.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_060.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_086.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo006.assetbundle

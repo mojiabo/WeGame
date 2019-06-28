@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2579426087
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0da4f063635e3889a8df3be2e2508692
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 632dd3625249d7c1db55c447547dedec
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 44ba4c7a3b18aa343aa85d476231f4bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eadb3d658abea3e4dad309972c9a0ded, type: 3}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/loli_skill_shandian_lian001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_1.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_4.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_5.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_8.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_2.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_6.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_3.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/lighting_00/lighting_003_7.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/lighting_003.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo009.assetbundle

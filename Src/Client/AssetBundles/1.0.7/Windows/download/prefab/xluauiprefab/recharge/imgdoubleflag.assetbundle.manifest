@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 731833310
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 32e14cd4f726f51e438c9fd794021e2f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 70e7db779fc083977b06f56e8be8f1dc
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/xLuaUIPrefab/Recharge/imgDoubleFlag.controller
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/prefab/xluauiprefab/recharge/anim_doubleflag.assetbundle

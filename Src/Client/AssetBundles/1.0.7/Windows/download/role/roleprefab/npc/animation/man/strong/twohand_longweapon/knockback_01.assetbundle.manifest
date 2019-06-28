@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3505866375
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9352b8da77c660a4ca41d4a0834433ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/Twohand_LongWeapon/Knockback_01.anim
+Dependencies: []

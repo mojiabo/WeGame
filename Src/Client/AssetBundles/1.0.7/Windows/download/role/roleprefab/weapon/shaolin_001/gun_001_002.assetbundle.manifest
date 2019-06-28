@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3411555344
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d2c0982f9d9ac031cef3ed4aa4d5b566
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8c7b2028921c26cb1ec4ee6faab8018f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Weapon/Shaolin_001/Gun_001_002.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/shaolin/gun_001_002/materials/gun_001_002.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/shaolin/gun_001_002/gun_001_002.assetbundle

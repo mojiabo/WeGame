@@ -1,0 +1,76 @@
+ManifestFileVersion: 0
+CRC: 2288309085
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13218f7de95b59274de10431616a4323
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/EquipIco/120233.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120257.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120254.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120269.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120238.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120250.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120249.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120229.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120266.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120263.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120258.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120230.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120235.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120234.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120245.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120217.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120260.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120224.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120219.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120228.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120267.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120225.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120216.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120236.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120265.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120221.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120227.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120242.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120246.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120268.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120240.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120218.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120211.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120213.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120244.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120248.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120256.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120261.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120223.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120264.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120251.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120220.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120259.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120232.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120215.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120262.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120231.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120239.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120241.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120237.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120226.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120255.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120247.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120222.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120252.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120253.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120214.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120243.png
+- Assets/Download_My/Source/UISource/UI/EquipIco/120212.png
+Dependencies: []

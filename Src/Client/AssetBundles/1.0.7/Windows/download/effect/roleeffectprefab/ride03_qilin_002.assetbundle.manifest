@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1171421687
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 82e73382827a29a969b96b121e968e94
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0f931d4ebb7724728a37cd063f2dc20a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/ride03_qilin_002.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_342_02.assetbundle

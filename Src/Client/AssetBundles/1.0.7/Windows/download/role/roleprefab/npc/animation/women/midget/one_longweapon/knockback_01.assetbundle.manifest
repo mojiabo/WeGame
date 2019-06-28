@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 604122579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f2d7cbf1343a769accb953eab514ff3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/Midget/One_LongWeapon/Knockback_01.anim
+Dependencies: []

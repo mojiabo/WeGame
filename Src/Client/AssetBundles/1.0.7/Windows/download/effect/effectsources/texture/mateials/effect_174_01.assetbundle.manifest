@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1364528414
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c6018169b927f3dd09a3b90b5ba5ece3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_174_01.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_174.assetbundle

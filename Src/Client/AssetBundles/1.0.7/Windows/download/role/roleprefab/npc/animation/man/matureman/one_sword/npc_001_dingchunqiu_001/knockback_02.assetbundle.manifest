@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2836792840
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4555b034362f9d6d674fd16ef769a68f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/One_Sword/Npc_001_dingchunqiu_001/Knockback_02.anim
+Dependencies: []

@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1991578267
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d6514ed49227d2609a04748706c39a39
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8809a9c3aece631d7628bd548ae3934f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/shaolin_attack_003.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_478.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_305.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_110.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo005.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo003.assetbundle

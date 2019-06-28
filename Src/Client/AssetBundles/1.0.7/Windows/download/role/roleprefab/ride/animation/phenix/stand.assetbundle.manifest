@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 160725513
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74ad870c0ad4d6c9a745e540c9660e25
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Ride/Animation/Phenix/Stand.anim
+Dependencies: []

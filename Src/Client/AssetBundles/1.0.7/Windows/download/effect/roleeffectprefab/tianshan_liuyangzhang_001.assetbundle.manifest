@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3748876337
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 324d11e94b6548859cef48679c7b2f79
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5c134e9824166b6e49e5284118a44ce3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c9eaddd977521474688fea87b2704aae, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/tianshan_liuyangzhang_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_322.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_di009.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_530.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo005.assetbundle

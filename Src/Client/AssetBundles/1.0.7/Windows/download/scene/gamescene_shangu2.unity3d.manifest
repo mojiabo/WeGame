@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 2329768387
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf48c24249587aca55c8032fb9d5868f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Download_My/Scene/GameScene_ShanGu2.unity
+Dependencies: []

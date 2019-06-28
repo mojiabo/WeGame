@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4051480533
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df39d9e5b61bc7e2f0cf943a14085976
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Weapon/Xiaoyao/Fu_007_001/Materials/Fu_001_001.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/xiaoyao/fu_007_001/materials/fu_007_001_2.assetbundle

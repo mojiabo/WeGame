@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 725934845
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59bf60d1b1c29aec8c7e16d9ae49ddec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7055fdf5592d4a180e3388d8ea895d86
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/shaolin_xp_loop_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/light_006.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_132.assetbundle

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3882877975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 18dfac1bc8133addec4e7b27cb057dae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Cap.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Pants.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Belt.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Glove.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Clothes.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Weapon.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Amulet.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Cuff.png
+- Assets/Download_My/Source/UISource/UI/UIRole/BG_Shoe.png
+Dependencies: []

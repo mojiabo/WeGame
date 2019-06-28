@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 224426436470056524}
   - component: {fileID: 223091838929776810}
   - component: {fileID: 114462021579537838}
-  - component: {fileID: 114781895540514894}
+  - component: {fileID: 114937311811677834}
   m_Layer: 5
   m_Name: UI_Task
   m_TagString: Untagged
@@ -506,7 +506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1948624535109760
 GameObject:
   m_ObjectHideFlags: 1
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114781895540514894}
+      - m_Target: {fileID: 114937311811677834}
         m_MethodName: Close
         m_Mode: 1
         m_Arguments:
@@ -1409,22 +1409,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u521D\u5165\u6C5F\u6E56"
---- !u!114 &114781895540514894
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1398700458593152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4153947a196c454fb9d45c7f3f2adc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  multiScroller: {fileID: 114837716614329742}
-  txtTaskName: {fileID: 114928290076143870}
-  txtTaskDesc: {fileID: 114620609089416912}
-  txtAwardMoney: {fileID: 114886991763433846}
-  btnReceive: {fileID: 114636162659388358}
 --- !u!114 &114794213816840618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1637,6 +1621,30 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114937311811677834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1398700458593152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551f57429244f944cace364d12e3143d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LuaComs:
+  - Name: txtTaskName
+    Type: 5
+    Trans: {fileID: 224953463838466522}
+  - Name: txtTaskDesc
+    Type: 5
+    Trans: {fileID: 224360538900302408}
+  - Name: imgMoney
+    Type: 3
+    Trans: {fileID: 224797172808209242}
+  - Name: btnReceiveImg
+    Type: 2
+    Trans: {fileID: 224607736219188648}
 --- !u!222 &222005924039757384
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -2300,8 +2308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -249.81987, y: -80}
-  m_SizeDelta: {x: 40, y: 40}
+  m_AnchoredPosition: {x: -185.14, y: -80}
+  m_SizeDelta: {x: 100.34, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224819211182207160
 RectTransform:

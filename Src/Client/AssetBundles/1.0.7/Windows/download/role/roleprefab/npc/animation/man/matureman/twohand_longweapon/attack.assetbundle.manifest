@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3217416337
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 01cb0c9490417a8e14b106b73a23f6f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/TwoHand_LongWeapon/Attack.anim
+Dependencies: []

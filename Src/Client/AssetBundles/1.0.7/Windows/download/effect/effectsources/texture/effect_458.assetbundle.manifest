@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3700511852
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a26320c3a42bce972be6aebd2e0c4171
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_458.png
+Dependencies: []

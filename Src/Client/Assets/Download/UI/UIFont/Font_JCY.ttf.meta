@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20ba4846397c9b24bb51606a2e365625
+guid: 922a1512d074436479183a39b045ff67
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,8 @@ TrueTypeFontImporter:
   fontName: FZZhengHeiS-M-GB
   fontNames:
   - FZZhengHeiS-M-GB
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 20ba4846397c9b24bb51606a2e365625, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

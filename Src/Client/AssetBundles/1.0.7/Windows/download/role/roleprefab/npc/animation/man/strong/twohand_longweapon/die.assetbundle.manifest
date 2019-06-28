@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2805634256
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84370351d464da193962b0d605f4914c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/Twohand_LongWeapon/Die.anim
+Dependencies: []

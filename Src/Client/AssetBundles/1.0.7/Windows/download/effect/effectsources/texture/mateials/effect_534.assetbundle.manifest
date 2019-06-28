@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1066467796
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 568bf344bde2a4e30e680dc98a3ed32a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_534.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_534.assetbundle

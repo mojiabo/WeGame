@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2330145705
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 692a6c9abb84e7d82b863f28d52c4c48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_xulie049.png
+Dependencies: []

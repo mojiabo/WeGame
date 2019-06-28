@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3582510321
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1ff8ed1764807137842b45be0735b405
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Frog/Run.anim
+Dependencies: []

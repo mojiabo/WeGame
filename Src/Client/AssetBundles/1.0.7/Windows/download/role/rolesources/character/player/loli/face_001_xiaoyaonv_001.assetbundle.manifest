@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3655132790
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f62f64a2e9afbe82741e1c99da72410
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Loli/Face_001_xiaoyaonv_001.jpg
+Dependencies: []

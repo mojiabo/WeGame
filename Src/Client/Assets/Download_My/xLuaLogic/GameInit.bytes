@@ -1,0 +1,33 @@
+﻿print('启动GameInit.lua')
+
+GameInit = {};
+local this = GameInit;
+
+function GameInit.Init()
+    print("GameInit");
+    this.InitCtrlAndViews();
+    this.LoadDataTables();
+end
+
+function GameInit.InitCtrlAndViews()
+
+    require('Modules/Task/UI_TaskView');
+    require('Modules/Task/UI_TaskCtrl');
+
+end
+
+function GameInit.LoadDataTables()
+    require('DataNode/DataTable/Create/ChapterEntity');
+    require('DataNode/DataTable/Create/ChapterDBModel');
+
+    ChapterDBModel.LoadList();
+end
+
+function GameInit.InitProto()
+    require('Common/json');
+    require('DataNode/Proto/ProtoCodeDef');
+    require('DataNode/Proto/SocketProtoListenerForLua');
+
+    SocketProtoListenerForLua.AddProtoListener();
+
+end

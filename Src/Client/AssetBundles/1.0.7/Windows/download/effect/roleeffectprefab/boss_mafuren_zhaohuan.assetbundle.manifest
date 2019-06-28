@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3896399154
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7aad74e003674da2c558e9584d34f4d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7055fdf5592d4a180e3388d8ea895d86
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/boss_mafuren_zhaohuan.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_005.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_342_02.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_133.assetbundle

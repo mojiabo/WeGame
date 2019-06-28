@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3426676178
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aa4de81e0f687ff2d7eeb0cb3ddd487e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8809a9c3aece631d7628bd548ae3934f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/buff_biaoji_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_dao006.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_511.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo_di.assetbundle

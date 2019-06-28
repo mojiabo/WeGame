@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 958217409
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ee4acbe4478cd6ef891bcd34d0e8c57e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Opening/Back/Materials/fatrun.png
+- Assets/Download/Role/RoleSources/Character/Player/Opening/Back/Materials/fatrun.mat
+Dependencies: []

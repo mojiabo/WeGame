@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1312344052
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c59afc027dc5a74e52155e7dc95536b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e4287d6314da2f5da2dd7eac15b7973d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Weapon/Xiaoyao_001/Fu_010_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/xiaoyao/fu_010_001/materials/fu_010_002.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/xiaoyao/fu_010_001/materials/fu_010_003.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/xiaoyao/fu_010_001/materials/fu_010_001.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/xiaoyao/fu_008_001/fu_008_001.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/weapon/xiaoyao/fu_010_001/fu_010_001.assetbundle

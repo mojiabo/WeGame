@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4170853930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 80c7b3996c03b98b2623259ede501464
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/Midget/One_LongWeapon/Run.anim
+Dependencies: []

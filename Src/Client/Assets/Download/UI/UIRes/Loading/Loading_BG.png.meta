@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecf2a31c2a8539449b37a6baf54831ff
+guid: e6979d20aa7a02a449586a11b915b346
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -84,5 +84,5 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: download/ui/uires/loading/loading_bg
+  assetBundleVariant: assetbundle

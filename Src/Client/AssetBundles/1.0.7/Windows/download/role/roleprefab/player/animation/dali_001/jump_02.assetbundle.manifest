@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2397797059
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 114da7d308723a441107a0d448d89190
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Dali_001/Jump_02.anim
+Dependencies: []

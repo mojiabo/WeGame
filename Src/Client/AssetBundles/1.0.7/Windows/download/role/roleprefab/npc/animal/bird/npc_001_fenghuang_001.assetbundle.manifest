@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3774953864
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 138c4df7c2058536fe0235b46a88765f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5023e5c25edae62f1e7825a26228610b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animal/Bird/Npc_001_fenghuang_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/npc/animal/bird/npc_001_fenghuang_001/materials/npc_001_fenghuang_001.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/npc/animal/bird/npc_001_fenghuang_001/npc_001_fenghuang_001.assetbundle

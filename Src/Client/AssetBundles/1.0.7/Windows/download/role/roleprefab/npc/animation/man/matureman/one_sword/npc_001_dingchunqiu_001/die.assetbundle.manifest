@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3730696048
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 66bbcb8ba0dc46ad8e4be56beda0a891
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/One_Sword/Npc_001_dingchunqiu_001/Die.anim
+Dependencies: []

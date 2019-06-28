@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2039264426
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dd0d1d16206b5fa6e307c74db7653d98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_441.tga
+Dependencies: []

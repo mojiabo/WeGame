@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 3493454965
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 671c5a5b8d6712fa6f12a56bf32bc759
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Download_My/Scene/GameScene_ChangAn.unity
+Dependencies: []

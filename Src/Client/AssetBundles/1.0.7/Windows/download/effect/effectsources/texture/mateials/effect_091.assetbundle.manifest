@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 536116450
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dbc522f9ede1b8f55567c0a846dc4d51
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_091.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_091.assetbundle

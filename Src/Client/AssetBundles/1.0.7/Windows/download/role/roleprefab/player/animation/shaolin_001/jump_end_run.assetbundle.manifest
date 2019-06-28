@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3793712316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 843121cb1db3726060ee3fc9440ba6d7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Shaolin_001/Jump_End_Run.anim
+Dependencies: []

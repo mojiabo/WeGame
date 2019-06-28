@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 726998946
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b8e29a090fae4fa58c6efdda49ac946f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5023e5c25edae62f1e7825a26228610b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Xiaoyao_001/Zy_xiaoyao_001_czt/Zy_xiaoyao_001_czt.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/xiaoyao_001/zy_xiaoyao_001_czt/materials/zy_xiaoyao_001_czt.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/xiaoyao_001/zy_xiaoyao_001_czt/zy_xiaoyao_001_czt.assetbundle

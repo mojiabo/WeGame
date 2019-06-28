@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1966869638
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c9df7db3e80f6744efb1592286837bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Dali_001/Zy_dali_001_90t/Materials/Zy_dali_002_90t.tga
+- Assets/Download/Role/RoleSources/Character/Player/Dali_001/Zy_dali_001_90t/Materials/Zy_dali_002_90t.mat
+Dependencies: []

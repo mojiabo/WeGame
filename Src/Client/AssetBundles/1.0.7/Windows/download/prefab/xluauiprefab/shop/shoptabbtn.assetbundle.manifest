@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1337914815
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06fc4c540db3753476b23773e8c6d8ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1a297641a279c79bad8ee32547b7c4b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/xLuaUIPrefab/Shop/ShopTabBtn.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/source/uisource/uicommonsilder.assetbundle

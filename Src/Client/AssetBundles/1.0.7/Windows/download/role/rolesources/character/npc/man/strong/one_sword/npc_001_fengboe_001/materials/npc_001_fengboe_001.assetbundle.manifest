@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1320652442
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4ff5b0f0b288a1b21c6896b3a590e75
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Man/Strong/One_Sword/Npc_001_fengboe_001/Materials/Npc_001_fengboe_001.mat
+- Assets/Download/Role/RoleSources/Character/Npc/Man/Strong/One_Sword/Npc_001_fengboe_001/Materials/Npc_001_fengboe_001.tga
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_wufeng001.assetbundle

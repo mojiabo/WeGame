@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2885949983
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 32fbf22b0820fc371ef8952af1dc05cd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9afe42ddd3da6ba707fac618a2ecc925
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fcde855f1b230d54fb58b1dbfab545e7, type: 3}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/RolePrefab/NPC/NPC_ZhuJian.prefab
+Dependencies: []

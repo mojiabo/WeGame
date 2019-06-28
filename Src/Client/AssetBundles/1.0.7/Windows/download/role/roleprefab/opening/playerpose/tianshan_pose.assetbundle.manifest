@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 603297218
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ada0ba20550c58df16dc484ff0954b5c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Opening/PlayerPose/Tianshan_Pose.anim
+Dependencies: []

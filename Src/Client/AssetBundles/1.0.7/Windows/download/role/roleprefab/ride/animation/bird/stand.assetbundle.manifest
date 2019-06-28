@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3228233755
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ded23321068ebbc4a28dc2bc6c3eaf4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Ride/Animation/Bird/Stand.anim
+Dependencies: []

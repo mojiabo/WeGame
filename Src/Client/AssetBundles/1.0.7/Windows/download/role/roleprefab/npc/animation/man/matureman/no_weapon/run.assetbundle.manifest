@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3446882703
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6241061ffc7bcc428f0d93ac81fc35d4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/No_Weapon/Run.anim
+Dependencies: []

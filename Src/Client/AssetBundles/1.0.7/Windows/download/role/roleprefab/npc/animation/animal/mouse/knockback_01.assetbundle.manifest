@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3255794422
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6a1d511155df1f58bc2bab5b0e7f9d7f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Mouse/Knockback_01.anim
+Dependencies: []

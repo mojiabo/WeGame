@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 126584964
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aad223f1d8e6397271b8eb2f11fb5545
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b71393b2ee9cb5c4f2e835e78d3d8d4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Opening/Player/Materials/Sz_tianshan_login.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/tianshan_001/cloth_001_tianshan_001_004/materials/cloth_001_tianshan_001_004.assetbundle

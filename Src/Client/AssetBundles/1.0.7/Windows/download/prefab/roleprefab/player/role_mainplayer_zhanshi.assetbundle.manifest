@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2504759743
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 97c89982dd9946a3e145fa50f32106c6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 097a92c79bfc8056efd94bdaa2141459
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: efcd2d566e7ae1945bf49efb180ff857, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77f586f285b3847808d79083bd19ef1f, type: 3}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/RolePrefab/Player/Role_MainPlayer_Zhanshi.prefab
+Dependencies: []

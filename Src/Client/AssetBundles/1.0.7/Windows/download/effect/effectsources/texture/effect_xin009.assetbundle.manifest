@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 483567637
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b4f620e96315112f7999a7c5b391eafc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_xin009.png
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1216122735
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3525810ab42eb5d743639368ab0fa5b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Midget/Magic/Attack_Stand.anim
+Dependencies: []

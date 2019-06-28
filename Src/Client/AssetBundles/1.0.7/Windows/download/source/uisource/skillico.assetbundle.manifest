@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2583691075
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 382f2b4893f2e0b25056c1e8f3c60f6c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/Skill/skillpic_cike1.png
+- Assets/Download_My/Source/UISource/UI/Skill/skillpic_cike4.png
+- Assets/Download_My/Source/UISource/UI/Skill/skillpic_cike3.png
+- Assets/Download_My/Source/UISource/UI/Skill/skillpic_cike2.png
+- Assets/Download_My/Source/UISource/UI/Skill/skillpic_cike5.png
+- Assets/Download_My/Source/UISource/UI/Skill/skillpic_cike6.png
+Dependencies: []

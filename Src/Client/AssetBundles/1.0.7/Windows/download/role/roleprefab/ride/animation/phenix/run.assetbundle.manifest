@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3008047562
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d5cf14107a8db185e1f3de162286ad9a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Ride/Animation/Phenix/Run.anim
+Dependencies: []

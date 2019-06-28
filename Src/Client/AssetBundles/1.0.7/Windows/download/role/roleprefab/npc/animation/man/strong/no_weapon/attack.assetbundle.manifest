@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3324909302
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dca40fb3c49cd9fe1c7f8ac29572fc1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/No_Weapon/Attack.anim
+Dependencies: []

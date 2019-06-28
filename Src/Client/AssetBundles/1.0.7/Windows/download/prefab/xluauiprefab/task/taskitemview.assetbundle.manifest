@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3776389972
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d982d42ed7b2e2a9c1a7d34444f5d20b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 879cec6333b3155b25509884db287144
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/xLuaUIPrefab/Task/TaskItemView.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/source/uisource/uicommon.assetbundle

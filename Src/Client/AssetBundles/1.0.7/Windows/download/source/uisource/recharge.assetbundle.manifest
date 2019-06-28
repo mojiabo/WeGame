@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2231069762
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43bf6b2786a98541c0f4aa6f5467692d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/Recharge/Recharge_YuanBao1.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_YuanBao3.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_BaoXiang.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_Bottom.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_DoubleFlag.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_YuanBao4.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_Guang.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_YuanBao2.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_Top.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_BG01.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_YB.png
+- Assets/Download_My/Source/UISource/Recharge/Recharge_DJ.png
+Dependencies: []

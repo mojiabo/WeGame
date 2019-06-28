@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2622233340
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26c5e03986931264aafc847b8d1cd741
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Tianshan_001/Skill_Xp_Bahuangliuhe_Start.anim
+Dependencies: []

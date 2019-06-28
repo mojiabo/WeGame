@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2036572791
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3de1cf777a07c90f3408a2c74766c86
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Weapon/Tianshan/Dao_005_001/Materials/Dao_005_001.tga
+- Assets/Download/Role/RoleSources/Character/Player/Weapon/Tianshan/Dao_005_001/Materials/Dao_005_001.mat
+Dependencies: []

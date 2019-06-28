@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 355904607
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6b0e13d3bfaba61e35d6e8d4a81902e4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Tianshan_001/Skill_Xuehualiuchu.anim
+Dependencies: []

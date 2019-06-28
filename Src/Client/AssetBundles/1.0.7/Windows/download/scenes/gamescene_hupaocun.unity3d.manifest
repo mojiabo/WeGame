@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+CRC: 2207858647
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77f30d3a83731b95ee7665400c6ca855
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Download/Scenes/GameScene_HuPaoCun.unity
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/cusshaders.assetbundle

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2791147735
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d38e697e76cbb476ea5508bcb86108db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Dali_001/Run.anim
+Dependencies: []

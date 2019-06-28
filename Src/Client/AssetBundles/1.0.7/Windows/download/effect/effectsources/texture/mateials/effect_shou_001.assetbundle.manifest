@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3296898162
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b0817a1be7d6e38512f8b3f3312ae1bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_shou_001.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_shou_001.assetbundle

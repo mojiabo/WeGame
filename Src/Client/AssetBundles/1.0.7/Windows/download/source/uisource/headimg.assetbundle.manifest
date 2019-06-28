@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1241870764
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2afe96abfd9adbfc8c6b2254227acec6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/HeadImg/HeadImg1.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/HeadImg3.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/HeadImg4.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/HeadImg5.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/headpic_role_cike.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/HeadImg2.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/headpic_role_juchui.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/headpic_role_fashi.png
+- Assets/Download_My/Source/UISource/UI/HeadImg/headpic_role_zhanshi.png
+Dependencies: []

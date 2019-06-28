@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+CRC: 4213722490
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 652a39a8d31fa2d93da02d354ef0bc16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Download/Scenes/GameScene_YuXi.unity
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/cusshaders.assetbundle

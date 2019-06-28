@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+CRC: 646473270
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 92b9e6f18002633eea6c7e7bde625b98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Download/Scenes/GameScene_JingHu.unity
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/cusshaders.assetbundle

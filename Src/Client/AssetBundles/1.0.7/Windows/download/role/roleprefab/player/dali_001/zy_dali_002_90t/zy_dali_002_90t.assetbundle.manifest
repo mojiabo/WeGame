@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3551913391
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28b8816a8e53ab9b6b3acd1213e206d9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5023e5c25edae62f1e7825a26228610b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Dali_001/Zy_dali_002_90t/Zy_dali_002_90t.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/dali_001/zy_dali_001_90t/materials/zy_dali_002_90t.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/dali_001/zy_dali_001_90t/zy_dali_001_90t.assetbundle

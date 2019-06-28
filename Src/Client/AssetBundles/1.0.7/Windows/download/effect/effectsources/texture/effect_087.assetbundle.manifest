@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 254650493
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab9ac2a941dd4c7a33a07814e7cbd571
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_087.png
+Dependencies: []

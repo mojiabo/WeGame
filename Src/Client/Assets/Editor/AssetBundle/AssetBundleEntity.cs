@@ -1,42 +1,52 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 /// <summary>
-/// ABÊµÌå
+/// AssetBundleå®ä½“
 /// </summary>
 public class AssetBundleEntity
 {
-
     /// <summary>
-    /// ÓÃÓÚ´ò°üÊ±ºòÑ¡¶¨ Î¨Ò»µÄkey
+    /// ç”¨äºæ‰“åŒ…æ—¶å€™é€‰å®š å”¯ä¸€Key
     /// </summary>
     public string Key;
 
     /// <summary>
-    /// Ãû³Æ
+    /// åç§°
     /// </summary>
     public string Name;
+
     /// <summary>
-    /// ±ê¼Ç
+    /// æ ‡è®°
     /// </summary>
     public string Tag;
+
     /// <summary>
-    /// ÊÇ·ñ³õÊ¼×ÊÔ´
-    /// </summary>
-    public bool IsFirstData;
-    /// <summary>
-    /// ÊÇ·ñÎÄ¼ş¼Ğ
+    /// æ˜¯å¦æ–‡ä»¶å¤¹
     /// </summary>
     public bool IsFolder;
+
     /// <summary>
-    /// ÊÇ·ñ±»Ñ¡ÖĞ
+    /// æ˜¯å¦åˆå§‹èµ„æº
+    /// </summary>
+    public bool IsFirstData;
+
+    /// <summary>
+    /// æ˜¯å¦åŠ å¯†
+    /// </summary>
+    public bool IsEncrypt;
+
+    /// <summary>
+    /// æ˜¯å¦è¢«é€‰ä¸­
     /// </summary>
     public bool IsChecked;
 
-
     private List<string> m_PathList = new List<string>();
 
+    /// <summary>
+    /// è·¯å¾„é›†åˆ
+    /// </summary>
     public List<string> PathList
     {
         get { return m_PathList; }

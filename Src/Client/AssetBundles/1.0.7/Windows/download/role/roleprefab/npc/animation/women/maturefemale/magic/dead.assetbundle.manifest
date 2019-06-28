@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3995076998
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1ae82be3afb12d21a599659b27d31056
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/MatureFemale/Magic/Dead.anim
+Dependencies: []

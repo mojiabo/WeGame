@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2174371455
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 32e2a46683e7c55056f6604600a006e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/One_Sword/Skill_Quanqingtianxia.anim
+Dependencies: []

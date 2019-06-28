@@ -1,60 +1,92 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
-using UnityEngine;
 
 public class AssetBundleDAL
 {
     /// <summary>
-    /// XMLÂ·¾¶
+    /// xmlè·¯å¾„
     /// </summary>
     private string m_Path;
+
     /// <summary>
-    /// ·µ»ØµÄÊı¾İ¼¯ºÏ
+    /// è¿”å›çš„æ•°æ®é›†åˆ
     /// </summary>
-    private List<AssetBundleEntity> m_list = null;
+    private List<AssetBundleEntity> m_List = null;
 
     public AssetBundleDAL(string path)
     {
         m_Path = path;
-
-        m_list = new List<AssetBundleEntity>();
+        m_List = new List<AssetBundleEntity>();
     }
 
+    private XDocument xDoc;
+
+    /// <summary>
+    /// è·å–ç‰ˆæœ¬å·
+    /// </summary>
+    /// <returns></returns>
+    public string GetVersion()
+    {
+        XElement root = xDoc.Root;
+        XElement assetBundleNode = root.Element("AssetBundle");
+        XAttribute attribute = assetBundleNode.Attribute("ResourceVersion");
+        return attribute.Value;
+    }
+
+    /// <summary>
+    /// å‡çº§ç‰ˆæœ¬å·
+    /// </summary>
+    public void UpdateVersion()
+    {
+        XElement root = xDoc.Root;
+        XElement assetBundleNode = root.Element("AssetBundle");
+        XAttribute attribute = assetBundleNode.Attribute("ResourceVersion");
+        string version = attribute.Value;
+        string[] arr = version.Split('.');
+
+        int shortVersion = int.Parse(arr[2]);
+        version = string.Format("{0}.{1}.{2}", arr[0], arr[1], ++shortVersion);
+        attribute.SetValue(version);
+        xDoc.Save(m_Path);
+    }
+
+    /// <summary>
+    /// è¿”å›xmlæ•°æ®
+    /// </summary>
+    /// <returns></returns>
     public List<AssetBundleEntity> GetList()
     {
-        m_list.Clear();
-        //¶ÁÈ¡xml °ÉÊı¾İÌí¼Óµ½m_list
-        XDocument xDoc = XDocument.Load(m_Path);
+        m_List.Clear();
 
+        //è¯»å–xml æŠŠæ•°æ®æ·»åŠ åˆ°m_Listé‡Œè¾¹
+        xDoc = XDocument.Load(m_Path);
         XElement root = xDoc.Root;
 
-        XElement AssetBundleNode = root.Element("AssetBundle");
+        XElement assetBundleNode = root.Element("AssetBundle");
 
-        IEnumerable<XElement> lst = AssetBundleNode.Elements("Item");
+        IEnumerable<XElement> lst = assetBundleNode.Elements("Item");
 
         int index = 0;
-        foreach (var item in lst)
+        foreach (XElement item in lst)
         {
             AssetBundleEntity entity = new AssetBundleEntity();
-            entity.Key = "Key" + ++index;
+            entity.Key = "key" + ++index;
             entity.Name = item.Attribute("Name").Value;
             entity.Tag = item.Attribute("Tag").Value;
-            entity.IsFirstData = item.Attribute("IsFirstData").Value.Equals("True",System.StringComparison.CurrentCultureIgnoreCase);
             entity.IsFolder = item.Attribute("IsFolder").Value.Equals("True", System.StringComparison.CurrentCultureIgnoreCase);
+            entity.IsFirstData = item.Attribute("IsFirstData").Value.Equals("True", System.StringComparison.CurrentCultureIgnoreCase);
+            entity.IsEncrypt = item.Attribute("IsEncrypt").Value.Equals("True", System.StringComparison.CurrentCultureIgnoreCase);
 
-            IEnumerable<XElement> pathLit = item.Elements("Path");
-
-            foreach (XElement path in pathLit)
+            IEnumerable<XElement> pathList = item.Elements("Path");
+            foreach (XElement path in pathList)
             {
-                entity.PathList.Add( path.Attribute("Value").Value);
+                entity.PathList.Add(path.Attribute("Value").Value);
             }
 
-            m_list.Add(entity);
+            m_List.Add(entity);
         }
-
-
-        return m_list;
+        return m_List;
     }
-
 }

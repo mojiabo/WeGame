@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 1622463504
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6ff62748a92aa8a08fafe36f7ca79d41
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f62c32a6434c107550be5d75ca5052b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb6b8233dc1d7e34b9f33710ad76b46c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 01573cab339d63f44b18e5f816895299, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/UIPrefab/UIWindows/pan_ChooseCount.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/source/uisource/uicommon.assetbundle

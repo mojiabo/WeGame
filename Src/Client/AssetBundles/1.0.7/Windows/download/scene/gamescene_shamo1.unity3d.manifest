@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 3244095112
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9eb89011273c9113162756d2df9450b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Download_My/Scene/GameScene_ShaMo1.unity
+Dependencies: []

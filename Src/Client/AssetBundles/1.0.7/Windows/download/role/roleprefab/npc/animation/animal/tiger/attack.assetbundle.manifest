@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2962790721
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f74db7a47b6f915374bd8a11a15855f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Tiger/Attack.anim
+Dependencies: []

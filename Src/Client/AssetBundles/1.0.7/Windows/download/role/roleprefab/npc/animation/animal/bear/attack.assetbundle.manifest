@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 131102681
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35ea626adda3b360bb4118e9c4b72a34
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Bear/Attack.anim
+Dependencies: []

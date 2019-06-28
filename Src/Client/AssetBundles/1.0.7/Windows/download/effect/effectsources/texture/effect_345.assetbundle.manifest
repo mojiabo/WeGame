@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2047833060
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd45a701bc06fb51f57e525440d37d2a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_345.png
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1669100028
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e6e7c4dee203002b9fe800ed1435ff7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Fat/TwoHand_LongWeapon/Attack.anim
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 344461476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1025de823eaec59b35dce1e2dd43c2ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/No_Weapon/Skill_Dunxuan.anim
+Dependencies: []

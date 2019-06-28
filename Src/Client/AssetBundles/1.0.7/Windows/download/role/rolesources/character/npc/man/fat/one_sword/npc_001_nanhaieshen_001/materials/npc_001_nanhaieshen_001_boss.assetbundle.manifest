@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 495059866
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 875f6b3a585a0fcf7a7b2a44dee46af4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b71393b2ee9cb5c4f2e835e78d3d8d4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Man/Fat/One_Sword/Npc_001_nanhaieshen_001/Materials/Npc_001_nanhaieshen_001_boss.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_wufeng001.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/npc/man/fat/one_sword/npc_001_nanhaieshen_001/materials/npc_001_nanhaieshen_001.assetbundle

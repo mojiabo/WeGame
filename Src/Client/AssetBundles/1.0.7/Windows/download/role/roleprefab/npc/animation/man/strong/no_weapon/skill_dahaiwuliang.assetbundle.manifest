@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1069531980
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3791f6cb5d2519bf53dad8700c74e33d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/No_Weapon/Skill_Dahaiwuliang.anim
+Dependencies: []

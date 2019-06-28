@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 241642838
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 199d0a352611fda3a30d9dfdc6bd6d0b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_dh_shalin002.tga
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2287575289
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e6ce447ec13929bfa8dd721fd681cda7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Opening/Player/Materials/Zy_tianshan_001_fqt.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/tianshan_001/zy_tianshan_001_fqt/materials/zy_tianshan_001_fqt.assetbundle

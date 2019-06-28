@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3497608377
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c52764c9ce93588c870fdc64e744f62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Tianshan_001/Fastrun_Left.anim
+Dependencies: []

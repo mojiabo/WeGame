@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1254625443
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 692e86b6301002480856ab351b075f3c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Xiaoyao_001/Skill_Zhurongzhang_End.anim
+Dependencies: []

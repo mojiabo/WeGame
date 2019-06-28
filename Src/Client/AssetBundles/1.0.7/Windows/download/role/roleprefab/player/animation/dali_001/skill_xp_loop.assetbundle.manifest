@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 699856604
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 03b84c48e4c4398e8b8bb85eb379f3e2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Dali_001/Skill_Xp_Loop.anim
+Dependencies: []

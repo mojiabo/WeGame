@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1470890645
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e842e021fe7e54da79bd1d952418ed2e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Shaolin_001/Dash.anim
+Dependencies: []

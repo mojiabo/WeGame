@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 83f4113306469634cae353b5053d4d2a
+guid: 396a6ea6550667a478176e6356155600
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -84,5 +84,5 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: download/ui/uires/loading/logon_bg
+  assetBundleVariant: assetbundle

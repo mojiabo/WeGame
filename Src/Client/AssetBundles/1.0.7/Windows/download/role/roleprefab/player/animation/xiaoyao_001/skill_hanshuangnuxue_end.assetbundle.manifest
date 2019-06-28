@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4151454367
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8ab8fcd0f51dd5df37941158dc66a3c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Xiaoyao_001/Skill_Hanshuangnuxue_End.anim
+Dependencies: []

@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3017188544
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f93e393516f317d1af99ebf07071570
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7e9ee104d6bb707fb2602b751e6f78b1
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/CusShaders/GlowAdditiveSimple.shader
+- Assets/Download/CusShaders/MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader
+- Assets/Download/CusShaders/Unlit-SimpleWaterCrystal.shader
+- Assets/Download/CusShaders/MADFINGER-3Layers-AlphaBlend.shader
+- Assets/Download/CusShaders/Water_Texture.shader
+- Assets/Download/CusShaders/MyAlphaBlend.shader
+- Assets/Download/CusShaders/DefaultInReplace/Mobile-Particle-Alpha_Replace.shader
+- Assets/Download/CusShaders/CloudAlphaBlend_Android.shader
+- Assets/Download/CusShaders/DefaultInReplace/Mobile-Diffuse_Replace.shader
+Dependencies: []

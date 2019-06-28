@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1185309727
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: de920953f40fbadf8bac731a8314edc5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/FrameImg/frameA_3.png
+Dependencies: []

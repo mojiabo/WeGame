@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1451812509
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d68e2990c558b55b8a89688d1990cb94
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Tianshan_001/Jump_02.anim
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1887085742
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 33fb299d16cb9dee4d404b48a290a3b1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Fat/One_Sword/Knockback_01.anim
+Dependencies: []

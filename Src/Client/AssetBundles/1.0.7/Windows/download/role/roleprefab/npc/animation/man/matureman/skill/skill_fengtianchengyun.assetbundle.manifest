@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 321204541
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fccbf92670b682ba2627c5e96c146c83
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/Skill/Skill_Fengtianchengyun.anim
+Dependencies: []

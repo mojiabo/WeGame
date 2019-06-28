@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3923792974
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3aa224a23d977f9addd4e72d83a6fa6a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Building/Npc_001_youshishuangxiong_001_dun/Materials/Npc_001_youshishuangxiong_001.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/npc/man/strong/no_weapon/npc_001_youshishuangxiong_001/materials/npc_001_youshishuangxiong_001.assetbundle

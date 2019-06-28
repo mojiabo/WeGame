@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1709525112
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e2ce89b14a7d763fdb04639c2e5732f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/MatureFemale/Magic/Skill_Shechangxiexin.anim
+Dependencies: []

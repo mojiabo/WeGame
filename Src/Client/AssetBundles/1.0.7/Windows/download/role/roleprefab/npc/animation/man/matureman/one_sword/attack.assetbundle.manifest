@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 189488513
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d58ba368753eb3649f58a96862e65bc1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/One_Sword/Attack.anim
+Dependencies: []

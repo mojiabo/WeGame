@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2321514182
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9bfed3f0cfaa595af82facf8f3fb3af
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cbe1072a0b46a9c6d53096f610f09bc2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Man/MatureMan/One_Sword/Npc_001_murongfu_001/Materials/Npc_001_murongfu_001.mat
+- Assets/Download/Role/RoleSources/Character/Npc/Man/MatureMan/One_Sword/Npc_001_murongfu_001/Materials/Npc_001_murongfu_001.tga
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_wufeng001.assetbundle

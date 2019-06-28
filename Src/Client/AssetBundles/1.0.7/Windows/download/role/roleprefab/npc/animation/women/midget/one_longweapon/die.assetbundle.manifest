@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 738235316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a811312f4dc7c726e0640a1eb40eb62d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/Midget/One_LongWeapon/Die.anim
+Dependencies: []

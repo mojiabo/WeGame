@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2634234966
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 30776465779504a294864186bc2eb225
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/light_007.tga
+Dependencies: []

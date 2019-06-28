@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3630298235
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a65a9948c31849d060ee455552be242b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Task.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_WorldMap.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Equip.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Ranking.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Role.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Shop.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Recharge.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_RoleInfo.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Kungfu.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_GameLevel.png
+- Assets/Download_My/Source/UISource/UI/UIMainCity/MainCity_Backpack.png
+Dependencies: []

@@ -64,6 +64,9 @@
     <Compile Include="Assets\Editor\AssetBundle\AssetBundleDAL.cs" />
     <Compile Include="Assets\Editor\AssetBundle\AssetBundleEntity.cs" />
     <Compile Include="Assets\Editor\AssetBundle\AssetBundleWindow.cs" />
+    <Compile Include="Assets\Editor\AssetBundle\AssetCategory.cs" />
+    <Compile Include="Assets\Editor\AssetBundle\AssetDependsEntity.cs" />
+    <Compile Include="Assets\Editor\AssetBundle\AssetEntity.cs" />
     <Compile Include="Assets\Editor\LuaGenConfig.cs" />
     <Compile Include="Assets\Editor\Menu.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />

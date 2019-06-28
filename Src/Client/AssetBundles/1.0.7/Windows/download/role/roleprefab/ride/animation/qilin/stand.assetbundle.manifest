@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 911825903
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74a7f2ecb9964766652b49ee098e1a8c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Ride/Animation/Qilin/Stand.anim
+Dependencies: []

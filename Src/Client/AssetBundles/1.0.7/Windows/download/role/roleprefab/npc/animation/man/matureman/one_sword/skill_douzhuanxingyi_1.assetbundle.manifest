@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1907780759
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 08cad5597cdc7f7215f140bcb846178e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/One_Sword/Skill_Douzhuanxingyi_1.anim
+Dependencies: []

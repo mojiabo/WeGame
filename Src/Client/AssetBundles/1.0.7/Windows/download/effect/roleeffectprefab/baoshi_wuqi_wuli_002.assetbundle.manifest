@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2401410857
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 61f8150ae669961d1ebd2ed2df4e8a53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7055fdf5592d4a180e3388d8ea895d86
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/baoshi_wuqi_wuli_002.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/effect_315_01.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/light_001.assetbundle

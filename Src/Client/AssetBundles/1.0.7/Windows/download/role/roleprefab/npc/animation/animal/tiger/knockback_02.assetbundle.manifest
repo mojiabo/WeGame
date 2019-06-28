@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 555455929
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ca0dfe96020ba7abb6cce6df4ac8bdb8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Tiger/Knockback_02.anim
+Dependencies: []

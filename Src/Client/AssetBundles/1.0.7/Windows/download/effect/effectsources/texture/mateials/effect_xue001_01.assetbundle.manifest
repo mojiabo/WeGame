@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1760924405
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f088a04be1aaa6789461637230e58741
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b71393b2ee9cb5c4f2e835e78d3d8d4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_xue001_01.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_xue001.assetbundle

@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3629145066
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4f452a2752c7875f9944b39e523ad2b8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 92b14c8d8ee5ebe0d54673363a07adb0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/tongyong_juxing_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/model/qibo006.assetbundle

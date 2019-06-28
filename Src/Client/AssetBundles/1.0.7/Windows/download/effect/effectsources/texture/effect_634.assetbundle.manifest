@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4263686490
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e305d8dc8bf1c497dc00d8acbc98e8d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_634.tga
+Dependencies: []

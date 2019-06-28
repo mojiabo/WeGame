@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 864751665
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ae2ec110b5b65091abbadc9e129aa01
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/No_Weapon/Skill_Jiashafumo.anim
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1401234675
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 488030fee38399370a4a81a93021ef6b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_040.tga
+Dependencies: []

@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: f5fff11df15d4894e931677d9afc2527
+guid: cff7bd73e138a7947837791248ad9a06
 folderAsset: yes
-timeCreated: 1536587660
-licenseType: Free
 DefaultImporter:
+  externalObjects: {}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: download/xlualogic
+  assetBundleVariant: assetbundle

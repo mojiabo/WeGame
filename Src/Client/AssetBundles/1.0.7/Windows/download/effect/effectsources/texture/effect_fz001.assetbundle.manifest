@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1836075251
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 570176a752f2aae010859c0c8042567d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_fz001.tga
+Dependencies: []

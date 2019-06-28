@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1557056242
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9cc03550fdf80596634945b3bf8d6799
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/No_Weapon/Stand.anim
+Dependencies: []

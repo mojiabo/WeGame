@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 4176273894
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8531467ff56f98a78c6df72acc328143
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 492997529f849c3970d354fc7a9e55b4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 74b113ab8fb693f44a7af8ae945800d0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9673a1cd045caf4fb217881bb28ffdd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 12e932a8f25164f41b9adf81d03ff5c1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Prefab/xLuaUIPrefab/RoleBackpack/BackpackView.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/source/uisource/uicommon.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/prefab/xluauiprefab/rolebackpack/backpackitem.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/prefab/xluauiprefab/rolebackpack/pagedot.assetbundle

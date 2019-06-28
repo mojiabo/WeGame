@@ -1,0 +1,19 @@
+﻿UI_TaskCtrl = {};
+
+local this = UI_TaskCtrl;
+
+function UI_TaskCtrl.OnInit(userData)
+
+end
+
+function UI_TaskCtrl.OnOpen(userData)
+
+end
+
+function UI_TaskCtrl.OnClose()
+
+end
+
+function UI_TaskCtrl.OnBeforeDestroy()
+
+end

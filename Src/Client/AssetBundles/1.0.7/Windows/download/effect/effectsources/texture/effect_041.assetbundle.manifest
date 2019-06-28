@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1999634232
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52f85f3ab6cf6dab8b52ff3d971b6f09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_041.png
+Dependencies: []

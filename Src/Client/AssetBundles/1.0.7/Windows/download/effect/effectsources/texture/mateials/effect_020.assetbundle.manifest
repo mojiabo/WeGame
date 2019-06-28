@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 752794260
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77c9feb527b5bad9ba6b481757d20e13
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b71393b2ee9cb5c4f2e835e78d3d8d4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_020.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_020.assetbundle

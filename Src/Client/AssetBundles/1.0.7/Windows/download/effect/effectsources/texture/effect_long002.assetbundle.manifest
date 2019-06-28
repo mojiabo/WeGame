@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1786685200
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f2a78d86e113a1a6a09612baf1a65c9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_long002.png
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1646167293
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b09d33820cec8cf6acd0d69c3dd1d0de
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/effect_xin005.tga
+Dependencies: []

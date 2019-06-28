@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1336301765
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0184c35ac5ed308ac5c42670aa958f98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/Broadsword/Die.anim
+Dependencies: []

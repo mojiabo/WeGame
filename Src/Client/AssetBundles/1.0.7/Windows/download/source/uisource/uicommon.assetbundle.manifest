@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 3353002729
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9264f9ebdcc24af469656af79267d12e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/UICommon/slider_bg.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Slider2_BG.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_001.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_002.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Status_2.png
+- Assets/Download_My/Source/UISource/UI/UICommon/TitleBG_001.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_005.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_006.png
+- Assets/Download_My/Source/UISource/UI/UICommon/shop_discount.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_Exp.png
+- Assets/Download_My/Source/UISource/UI/UICommon/btn_Arrows.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Status_1.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Arrow_Disable.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Arrow_Down.png
+- Assets/Download_My/Source/UISource/UI/UICommon/shop_new.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_009.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Style1_Pressed.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_004.png
+- Assets/Download_My/Source/UISource/UI/UICommon/btn_Tab.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Status_0.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_013.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_MP.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Style1_Disabled.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Style1_Normal.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_SmallMapArr.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Style1_Highlighted.png
+- Assets/Download_My/Source/UISource/UI/UICommon/slider_mp.png
+- Assets/Download_My/Source/UISource/UI/UICommon/huangdian.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_Status.png
+- Assets/Download_My/Source/UISource/UI/UICommon/CancelAutoFight.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_010.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_HP.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_HP_BG.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_Arrows.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Input_BG_01.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_YuanBao.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_011.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Slider2_F.png
+- Assets/Download_My/Source/UISource/UI/UICommon/btn_weixin.png
+- Assets/Download_My/Source/UISource/UI/UICommon/AutoFight.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_012.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_Start.png
+- Assets/Download_My/Source/UISource/UI/UICommon/btn_Small.png
+- Assets/Download_My/Source/UISource/UI/UICommon/huidian.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_ShaiZi.png
+- Assets/Download_My/Source/UISource/UI/UICommon/npc_talk.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_007.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_SkillBG.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_TongQian.png
+- Assets/Download_My/Source/UISource/UI/UICommon/slider_exp.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_008.png
+- Assets/Download_My/Source/UISource/UI/UICommon/menu_bg_002.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Btn_Close.png
+- Assets/Download_My/Source/UISource/UI/UICommon/TitleBG_002.png
+- Assets/Download_My/Source/UISource/UI/UICommon/shop_hot.png
+- Assets/Download_My/Source/UISource/UI/UICommon/btn_Tab2.png
+- Assets/Download_My/Source/UISource/UI/UICommon/shop_time.png
+- Assets/Download_My/Source/UISource/UI/UICommon/Ico_YuanBG.png
+- Assets/Download_My/Source/UISource/UI/UICommon/slider_hp.png
+- Assets/Download_My/Source/UISource/UI/UICommon/BG_003.png
+Dependencies: []

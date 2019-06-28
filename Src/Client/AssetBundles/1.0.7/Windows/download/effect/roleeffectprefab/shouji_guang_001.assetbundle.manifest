@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1133602656
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fec0444bc2f5ae8ef3a6924c8834992f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0f931d4ebb7724728a37cd063f2dc20a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/RoleEffectPrefab/shouji_guang_001.prefab
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/light_019_01.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/mateials/light_020.assetbundle

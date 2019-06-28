@@ -22,7 +22,6 @@ namespace Framework
         }
         public void OnUpdate()
         {
-           
         }
         /// <summary>
         /// 读取本地文件到byte数组

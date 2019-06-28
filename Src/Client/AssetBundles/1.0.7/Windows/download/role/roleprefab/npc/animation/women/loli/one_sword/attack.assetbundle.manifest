@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1951195437
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be38ac7384d70ded8976306112f0e5df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/Loli/One_Sword/Attack.anim
+Dependencies: []

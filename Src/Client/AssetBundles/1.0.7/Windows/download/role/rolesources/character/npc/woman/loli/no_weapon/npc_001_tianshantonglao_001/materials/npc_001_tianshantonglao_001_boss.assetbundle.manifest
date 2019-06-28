@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 363069327
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8ba31521cd9357e23b0a9a038de6edef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b71393b2ee9cb5c4f2e835e78d3d8d4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Woman/Loli/No_Weapon/Npc_001_tianshantonglao_001/Materials/Npc_001_tianshantonglao_001_boss.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_wufeng001.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/npc/woman/loli/no_weapon/npc_001_tianshantonglao_001/materials/npc_001_tianshantonglao_001.assetbundle

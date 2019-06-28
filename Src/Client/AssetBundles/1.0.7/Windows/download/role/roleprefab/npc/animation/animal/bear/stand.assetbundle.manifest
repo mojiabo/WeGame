@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2319356418
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 96798db2daed2510ec303a5f10d706d1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Bear/Stand.anim
+Dependencies: []

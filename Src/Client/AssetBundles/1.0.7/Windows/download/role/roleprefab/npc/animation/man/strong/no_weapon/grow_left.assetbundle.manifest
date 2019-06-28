@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 378035640
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd960324ccf18cf88aa648d9b32492c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/No_Weapon/Grow_Left.anim
+Dependencies: []

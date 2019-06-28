@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1599808296
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 73e0b9c4835d10bb03f30fb821349dcf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/MatureFemale/TwoHand_LongWeapon/Die.anim
+Dependencies: []

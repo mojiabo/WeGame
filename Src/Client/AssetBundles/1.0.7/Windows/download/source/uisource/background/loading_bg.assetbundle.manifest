@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2879542239
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 470933bc0a42b6a6f787732c2b893615
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/BackGround/Loading_BG.png
+Dependencies: []

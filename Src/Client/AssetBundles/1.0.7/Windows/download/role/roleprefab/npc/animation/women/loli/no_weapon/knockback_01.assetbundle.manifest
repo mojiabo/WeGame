@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2792820264
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43a4b8c9f89f20e3f74485bcd418b570
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Women/Loli/No_Weapon/Knockback_01.anim
+Dependencies: []

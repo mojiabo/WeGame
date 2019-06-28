@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2894975668
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 60fb7dd82535e9a70897a4be2db37d6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_150.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_150.assetbundle

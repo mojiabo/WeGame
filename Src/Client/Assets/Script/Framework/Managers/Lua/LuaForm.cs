@@ -153,6 +153,50 @@ namespace Framework
             onOpen = null;
             onClose = null;
             onBeforeDestroy = null;
+
+            //卸载图片资源
+
+            int len = m_LuaComs.Length;
+
+            for (int i = 0; i < len; i++)
+            {
+                LuaCom com = m_LuaComs[i];
+                switch (com.Type)
+                {
+                    case LuaComType.GameObject:
+                        break;
+                    case LuaComType.Transform:
+                        break;
+                    case LuaComType.Button:
+                        break;
+                    case LuaComType.Image:
+                        break;
+                    case LuaComType.YouYouImage:
+                        Image img = com.Trans.GetComponent<Image>();
+                        img = null;
+                        break;
+                    case LuaComType.Text:
+                        break;
+                    case LuaComType.YouYouText:
+                        break;
+                    case LuaComType.RawImage:
+                        RawImage rawImg = com.Trans.GetComponent<RawImage>();
+                        rawImg = null;
+                        break;
+                    case LuaComType.InputField:
+                        break;
+                    case LuaComType.Scrollbar:
+                        break;
+                    case LuaComType.ScrollView:
+                        break;
+                    case LuaComType.UIMultiScroller:
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+
         }
 
         [Serializable]

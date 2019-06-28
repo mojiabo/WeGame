@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3699043459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f3f09b6de1b1146c1d6abdd3ef2653d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/lighting_00/lighting_003_5.jpg
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3010198897
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 458aee0a8e6bba17b1008244f4b66b03
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Shaolin_001/Cloth_001_shaolin_001_005/Materials/Cloth_001_shaolin_001_005.jpg
+- Assets/Download/Role/RoleSources/Character/Player/Shaolin_001/Cloth_001_shaolin_001_005/Materials/Cloth_001_shaolin_001_005.mat
+Dependencies: []

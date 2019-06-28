@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 957442757
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 788d143fa2ba764ac181b55cb2999c50
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5023e5c25edae62f1e7825a26228610b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Animal/Duck/Npc_001_xiaohuangya_001/Npc_001_xiaohuangya_001.FBX
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/npc/animal/duck/npc_001_xiaohuangya_001/materials/npc_001_xiaohuangya_001.assetbundle

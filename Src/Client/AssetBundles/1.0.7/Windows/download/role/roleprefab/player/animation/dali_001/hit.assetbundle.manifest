@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2756136510
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 851e4f6b0a5335ee33b34aca8b607493
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Dali_001/Hit.anim
+Dependencies: []

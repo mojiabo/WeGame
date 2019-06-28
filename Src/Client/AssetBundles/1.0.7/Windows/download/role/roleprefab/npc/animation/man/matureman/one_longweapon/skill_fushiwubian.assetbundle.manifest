@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 183744667
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4e9c9b375e9fe883a96db6d93d9d629
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/MatureMan/One_LongWeapon/Skill_Fushiwubian.anim
+Dependencies: []

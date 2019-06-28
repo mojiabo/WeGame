@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1682340819
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 734a3278b48e2c52e4d6bf7f92739433
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Npc/Man/Fat/No_Weapon/Npc_000_mawude_001/Materials/Npc_000_mawude_001.tga
+- Assets/Download/Role/RoleSources/Character/Npc/Man/Fat/No_Weapon/Npc_000_mawude_001/Materials/Npc_000_mawude_001.mat
+Dependencies: []

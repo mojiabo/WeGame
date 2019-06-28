@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3416228558
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd921f0390cefeda92c674553ee3d0f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Man/Strong/Twohand_LongWeapon/Hit.anim
+Dependencies: []

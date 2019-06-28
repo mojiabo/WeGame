@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3497446194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a877eabbb600c9b72c5e490db47f6038
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Ride/Animation/Marryhorse/Stand.anim
+Dependencies: []

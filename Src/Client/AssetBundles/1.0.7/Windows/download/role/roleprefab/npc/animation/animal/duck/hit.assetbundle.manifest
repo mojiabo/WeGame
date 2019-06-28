@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1352117503
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d2dfae8d36b6d43518832b5d923649fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Duck/Hit.anim
+Dependencies: []

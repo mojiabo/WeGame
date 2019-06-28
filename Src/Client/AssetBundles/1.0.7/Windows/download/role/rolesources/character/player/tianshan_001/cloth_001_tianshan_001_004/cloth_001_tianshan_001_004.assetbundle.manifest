@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1449099460
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8750f3ef16039c35fcaa4caca3a23b55
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5023e5c25edae62f1e7825a26228610b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RoleSources/Character/Player/Tianshan_001/Cloth_001_tianshan_001_004/Cloth_001_tianshan_001_004.FBX
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/tianshan_001/cloth_001_tianshan_001_004/materials/cloth_001_tianshan_001_004.assetbundle
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/role/rolesources/character/player/tianshan_001/cloth_001_tianshan_001_004/materials/hair_tianshan_004.assetbundle

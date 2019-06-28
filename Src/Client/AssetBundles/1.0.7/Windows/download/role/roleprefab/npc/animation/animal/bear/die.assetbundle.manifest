@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1187223416
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40fcd875fa52bdda7e5d85c942c1e42b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Npc/Animation/Animal/Bear/Die.anim
+Dependencies: []

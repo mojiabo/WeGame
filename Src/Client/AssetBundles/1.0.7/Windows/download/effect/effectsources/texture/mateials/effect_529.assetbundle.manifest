@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 323094648
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd2048a13aec5b9f6def14929abd6ccc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Effect/EffectSources/texture/mateials/effect_529.mat
+Dependencies:
+- C:/WeGame/WeGame/Src/Client/Assets/../AssetBundles/1.0.7/Windows/download/effect/effectsources/texture/effect_529.assetbundle

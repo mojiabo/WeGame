@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2439160723
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 76ee744329e66768e1ff7b87f2316be9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 43a4b7bca5993049df5a20320e1ab708
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download/Role/RolePrefab/Player/Animation/Tianshan_001/Dead.anim
+Dependencies: []

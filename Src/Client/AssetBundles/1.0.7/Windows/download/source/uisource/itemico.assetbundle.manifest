@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 4175458211
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3ddd06027b8b6721d15eb22cc285356
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Download_My/Source/UISource/UI/ItemIco/110332.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110327.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110328.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110336.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110304.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110339.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110312.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110340.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110337.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110322.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110308.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110338.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110324.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110318.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110309.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110320.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110319.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110310.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110321.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110313.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110341.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110331.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110302.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110315.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110314.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110311.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110301.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110325.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110330.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110316.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110305.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110303.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110307.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110326.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110323.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110306.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110333.png
+- Assets/Download_My/Source/UISource/UI/ItemIco/110329.png
+Dependencies: []
