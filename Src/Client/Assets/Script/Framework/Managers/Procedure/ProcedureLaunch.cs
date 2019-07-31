@@ -9,15 +9,19 @@ namespace Framework
         public override void OnEnter()
         {
             base.OnEnter();
+            Debug.Log("ProcedureLaunch：OnEnter");
 
             string url = GameEntry.Http.RealWebAccountUrl + "/api/init";
 
             Dictionary<string, object> dic = GameEntry.Pool.DequeueClassObject<Dictionary<string, object>>();
-
             dic.Clear();
-            dic["ChannelId"] = 0;
-            dic["InnerVersion"] = 1001;
-            GameEntry.Http.SendData(url,OnWebAccountInit,true,dic);
+
+            GameEntry.Data.SystemDataManager.CurrChannelConfig.ChannelId = 0;
+            GameEntry.Data.SystemDataManager.CurrChannelConfig.InnerVersion = 1001;
+
+            dic["ChannelId"] = GameEntry.Data.SystemDataManager.CurrChannelConfig.ChannelId;
+            dic["InnerVersion"] = GameEntry.Data.SystemDataManager.CurrChannelConfig.InnerVersion;
+            GameEntry.Http.SendData(url, OnWebAccountInit, true, dic);
         }
 
         /// <summary>
@@ -26,9 +30,23 @@ namespace Framework
         /// <param name="args"></param>
         private void OnWebAccountInit(HttpCallBackArgs args)
         {
-            Debug.Log("HasEror"+args.HasError);
-            Debug.Log("Value"+args.Value);
-            GameEntry.Procedure.ChangeState(ProcedureState.CheckVersion);
+            if (!args.HasError)
+            {
+                LitJson.JsonData data = LitJson.JsonMapper.ToObject(args.Value);
+                LitJson.JsonData config = LitJson.JsonMapper.ToObject(data["Value"].ToString());
+
+                GameEntry.Data.SystemDataManager.CurrChannelConfig.ServerTime = long.Parse(config["ServerTime"].ToString());
+                GameEntry.Data.SystemDataManager.CurrChannelConfig.SourceVersion = config["SourceVersion"].ToString();
+                GameEntry.Data.SystemDataManager.CurrChannelConfig.SourceUrl = config["SourceUrl"].ToString();
+                GameEntry.Data.SystemDataManager.CurrChannelConfig.RechargeUrl = config["RechargeUrl"].ToString();
+                GameEntry.Data.SystemDataManager.CurrChannelConfig.TDAppId = config["TDAppId"].ToString();
+                GameEntry.Data.SystemDataManager.CurrChannelConfig.IsOpenTD = int.Parse(config["IsOpenTD"].ToString()) == 1;
+
+                Debug.Log("RechargeUrl" + GameEntry.Data.SystemDataManager.CurrChannelConfig.RechargeUrl);
+
+
+                GameEntry.Procedure.ChangeState(ProcedureState.CheckVersion);
+            }
         }
 
         public override void OnUpdate()

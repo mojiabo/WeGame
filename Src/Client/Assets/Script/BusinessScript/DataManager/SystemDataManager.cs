@@ -12,9 +12,18 @@ public class SystemDataManager : IDisposable
     /// 当前服务器时间
     /// </summary>
     public long CurrServerTime;
+
+    /// <summary>
+    /// 当前渠道配置
+    /// </summary>
+    public ChannelInitConfigEntity CurrChannelConfig
+    {
+        get;
+        private set;
+    }
     public SystemDataManager()
     {
-
+        CurrChannelConfig = new ChannelInitConfigEntity();
     }
     /// <summary>
     /// 清空数据

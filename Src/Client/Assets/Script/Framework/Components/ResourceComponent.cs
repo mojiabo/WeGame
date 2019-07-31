@@ -10,9 +10,17 @@ namespace Framework
         /// 本地文件路径
         /// </summary>
         public string LocalFilePath;
+        /// <summary>
+        /// 资源管理器
+        /// </summary>
+        private ResourceManager m_ResourceManager;
+
         protected override void OnAwake()
         {
             base.OnAwake();
+
+            m_ResourceManager = new ResourceManager();
+
 #if DISABLE_ASSETBUNDLE && UNITY_EDITOR
              LocalFilePath = Application.dataPath;
 #else
@@ -20,29 +28,23 @@ namespace Framework
 #endif       
             GameEntry.RegisterUpdateComponent(this);
         }
+
+        /// <summary>
+        /// 初始化只读区资源包信息
+        /// </summary>
+        public void InitStreamingAssetsBundleInfo()
+        {
+            m_ResourceManager.InitStreamingAssetsBundleInfo();
+        }
+
         public void OnUpdate()
         {
         }
-        /// <summary>
-        /// 读取本地文件到byte数组
-        /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
-        public byte[] GetFileBuffer(string path)
-        {
-            Debug.Log(path);
-            byte[] buffer = null;
-            using (FileStream fs = new FileStream(path, FileMode.Open))
-            {
-                buffer = new byte[fs.Length];
-                fs.Read(buffer, 0, buffer.Length);
-            }
-            return buffer;
-        }
+
 
         public override void Shutdown()
         {
-
+            m_ResourceManager.Dispose();
         }
     }
 }

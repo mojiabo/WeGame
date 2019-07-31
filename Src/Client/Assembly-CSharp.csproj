@@ -162,6 +162,7 @@
     <Compile Include="Assets\Script\BusinessScript\Data\ProtoHandle\System_HeartbeatReturnHandler.cs" />
     <Compile Include="Assets\Script\BusinessScript\Data\ProtoHandle\Task_SearchTaskReturnHandler.cs" />
     <Compile Include="Assets\Script\BusinessScript\DataManager\CacheDataManager.cs" />
+    <Compile Include="Assets\Script\BusinessScript\DataManager\DataEntity\ChannelInitConfigEntity.cs" />
     <Compile Include="Assets\Script\BusinessScript\DataManager\DataEntity\ServerTaskEntity.cs" />
     <Compile Include="Assets\Script\BusinessScript\DataManager\PVEMapDataManager.cs" />
     <Compile Include="Assets\Script\BusinessScript\DataManager\SystemDataManager.cs" />
@@ -252,7 +253,12 @@
     <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedurePreLoad.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureSelectRole.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Procedure\ProcedureWorldMap.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Resource\Entity\AssetBundleInfoEntity.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Resource\Entity\AssetCategory.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Resource\Entity\AssetDependsEntity.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Resource\Entity\AssetEntity.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Resource\ResourceManager.cs" />
+    <Compile Include="Assets\Script\Framework\Managers\Resource\StreamingAssetsManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Scene\SceneManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Setting\SettingManager.cs" />
     <Compile Include="Assets\Script\Framework\Managers\Socket\IProto.cs" />

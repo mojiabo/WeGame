@@ -40,7 +40,7 @@ namespace Framework
         {
 
             //1.ÄÃµ½±í¸ñbuffer
-            byte[] buffer = GameEntry.Resource.GetFileBuffer(string.Format("{0}/Download/DataTable/{1}.bytes", GameEntry.Resource.LocalFilePath, TableName));
+            byte[] buffer =IOUtil.GetFileBuffer(string.Format("{0}/Download/DataTable/{1}.bytes", GameEntry.Resource.LocalFilePath, TableName));
 
             LoadDaTableMS.SetLength(0);
             LoadDaTableMS.Write(buffer,0,buffer.Length);

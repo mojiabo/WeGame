@@ -64,15 +64,13 @@
     <Compile Include="Assets\Editor\AssetBundle\AssetBundleDAL.cs" />
     <Compile Include="Assets\Editor\AssetBundle\AssetBundleEntity.cs" />
     <Compile Include="Assets\Editor\AssetBundle\AssetBundleWindow.cs" />
-    <Compile Include="Assets\Editor\AssetBundle\AssetCategory.cs" />
-    <Compile Include="Assets\Editor\AssetBundle\AssetDependsEntity.cs" />
-    <Compile Include="Assets\Editor\AssetBundle\AssetEntity.cs" />
     <Compile Include="Assets\Editor\LuaGenConfig.cs" />
     <Compile Include="Assets\Editor\Menu.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
     <Compile Include="Assets\Editor\ScriptCreatInit.cs" />
+    <Compile Include="Assets\Editor\SettingsWindow.cs" />
     <Compile Include="Assets\Editor\SettingWindow.cs" />
     <Compile Include="Assets\Script\Framework\Editor\LocalizationComponentInspector.cs" />
     <Compile Include="Assets\Script\Framework\Editor\PoolComponentInspector.cs" />

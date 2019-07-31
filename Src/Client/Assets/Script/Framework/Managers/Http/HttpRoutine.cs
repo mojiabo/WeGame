@@ -129,11 +129,17 @@ namespace Framework
 				{
 					m_CallBackArgs.HasError = false;
 					m_CallBackArgs.Value = data.downloadHandler.text;
-					m_CalBack(m_CallBackArgs);
+
+#if DEBUG_LOG_PROTO
+                    Debug.Log("<color=#00eaff>接受消息:</color><color=#00ff9c>"+data.url+"</color>");
+                    Debug.Log("<color=#c5e1dc>====>>"+JsonUtility.ToJson(m_CallBackArgs)+"</color>");
+#endif
+                    m_CalBack(m_CallBackArgs);
 				}
 			}
 			data.Dispose();
 			data = null;
+            ///回池
             GameEntry.Pool.EnqueueClassObject(this);
         }
 		#endregion
